@@ -63,6 +63,11 @@
   font-style: normal;
 }
 
+div{
+    overflow-x: hidden;
+    overflow-y:hidden;
+}
+
 h1, textpath {
   font-family: 'Recoleta', sans-serif;
   font-size: 30px;

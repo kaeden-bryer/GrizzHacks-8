@@ -1,6 +1,6 @@
 'use client'
 import { useState, useRef, useEffect } from 'react';
-
+import '../styles/landing.css';
 const Landing = () => {
     const [rotateDuck, setRotateDuck] = useState(false);
     const [quacks, setQuacks] = useState<string[]>([]);
@@ -86,7 +86,7 @@ const Landing = () => {
                     </button>
                     <img
                         src="water.svg"
-                        className="w-full scale-125 md:scale-110 sm:translate-y-10 lg:translate-y-14 xl:translate-y-28 z-30"
+                        className="w-full scale-125 md:scale-110 sm:translate-y-10 lg:translate-y-14 xl:translate-y-28 z-30 "
                         alt=""
                     />
                 </div>
