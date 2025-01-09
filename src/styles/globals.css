@@ -78,6 +78,8 @@ body{
   @apply selection:bg-primary selection:text-light
 }
 
+
+
 /* about */
 #about p{
   font-size: 20px;
@@ -93,6 +95,15 @@ body{
 @media (min-width: 600px) {
   #about div {
     margin: 0 5vw 0;
+  }
+  .helpOrSponsor{
+    padding-left: 5vw;
+  }
+}
+@media (max-width: 600px) {
+  
+  .helpOrSponsor{
+    padding-left: 0;
   }
 }
 

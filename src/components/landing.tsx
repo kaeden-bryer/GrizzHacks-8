@@ -38,7 +38,7 @@ const Landing = () => {
     };
 
     return (
-        <div className="relative w-screen h-screen overflow-hidden flex justify-center bg-light">
+        <div className="relative h-screen overflow-hidden flex justify-center bg-light">
             <div className="flex flex-col mt-40 items-center gap-4">
                 <div className="relative">
                     <h1 className="inset-0 text-5xl md:text-7xl xl:text-8xl xl:text-[6.5rem] font-bold text-secondary lg:translate-y-1 translate-y-0.5 opacity-50">
@@ -90,8 +90,8 @@ const Landing = () => {
                         alt=""
                     />
                 </div>
-                <div className="flex justify-between md:mx-10 mx-2 absolute md:bottom-5 bottom-1 text-light">
-                    <div className="flex gap-2">
+                <div className="helpOrSponsor flex absolute md:bottom-5 bottom-1 text-light">
+                    <div className="flex gap-5 mx-2">
                         <p className="md:text-lg font-recoleta">
                             Need <a
                                 className="underline underline-offset-2 transition-all hover:underline-offset-4"
