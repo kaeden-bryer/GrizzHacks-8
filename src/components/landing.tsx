@@ -73,7 +73,7 @@ const Landing = () => {
                 <div className="relative">
                     <button
                         onClick={duckClicked}
-                        className="absolute -top-28 left-32 sm:-top-8 sm:left-36 cursor-pointer scale-75 -translate-y-24 -translate-x-20 lg:scale-100 sm:scale-90 sm:-translate-y-12 lg:-translate-y-7 xl:translate-y-10 2xl:scale-110 2xl:translate-y-12 2xl:translate-x-14"
+                        className="absolute -top-10 left-32 sm:-top-8 sm:left-36 cursor-pointer scale-75 -translate-y-24 -translate-x-20 lg:scale-100 sm:scale-90 sm:-translate-y-12 lg:-translate-y-7 xl:translate-y-10 2xl:scale-110 2xl:translate-y-12 2xl:translate-x-14"
                     >
                         {quacks.map((quack, index) => (
                             <p key={index} className={`${quack} font-recoleta`}>quack</p>
