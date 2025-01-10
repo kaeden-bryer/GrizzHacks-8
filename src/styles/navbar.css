@@ -42,6 +42,8 @@
     font-size: 1.5rem;
     cursor: pointer;
   }
+
+  
   
   /* Responsive Styles */
   @media (max-width: 768px) {
@@ -63,5 +65,11 @@
     .navbar-toggle {
       display: block;
     }
+    
   }
+
+
+
+  
+  
   

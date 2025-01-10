@@ -10,6 +10,7 @@ export default function Navbar() {
   };
 
   return (
+    <div>
     <nav className="navbar">
       <div className="navbar-logo">GH</div>
       <ul className={`navbar-links ${isMenuOpen ? 'active' : ''}`}>
@@ -27,6 +28,32 @@ export default function Navbar() {
       >
         ☰
       </button>
+
+      
     </nav>
+    {isMenuOpen && (
+      <ul className="dropdown-content">
+        <li>
+          <a href="#about">About</a>
+        </li>
+        <li>
+          <a href="#schedule">Schedule</a>
+        </li>
+        <li>
+          <a href="#tracks">Tracks</a>
+        </li>
+        <li>
+          <a href="#sponsor">Sponsor</a>
+        </li>
+        <li>
+          <a href="#faq">FAQ</a>
+        </li>
+        <li>
+          <a href="#team">Team</a>
+        </li>
+      </ul>
+    )}
+    </div>
   );
+  
 }
