@@ -1,0 +1,46 @@
+/* Example CSS */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3d81a8;
+    padding: 0.5rem 1rem;
+    color: #f6f6e9;
+    
+  }
+
+.dropdown-container {
+    position: relative;
+  }
+  
+  .dropdown-btn {
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .dropdown-content {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .dropdown-content li {
+    padding: 8px 16px;
+  }
+  
+  .dropdown-content li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .dropdown-content li a:hover {
+    background-color: #f0f0f0;
+  }
+  
