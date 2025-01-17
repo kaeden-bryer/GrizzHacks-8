@@ -3,6 +3,7 @@ import Landing from "@/components/landing";
 import Image from "next/image";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
+import AboutNew from "@/components/AboutNew";
 
 import { useEffect } from "react";
 
@@ -15,6 +16,7 @@ export default function Home() {
       */}
       <Navbar />
       <Hero />
+      <AboutNew />
     </div>
   );
 }
