@@ -10,14 +10,14 @@ export default {
     extend: {
       colors: {
         light: "#f6f6e9",
-        primary: "#3d81a8",
+        primary: "#3d81a8", //our main blue
         secondary: "#a89a64",
         heading: "#f8e894",
-        primaryHover: "#346e8f",
-        primaryText: "#cfcfcf",
+        primaryHover: "#346e8f", //our main blue but darker
+        primaryText: "#cfcfcf", //grayish text
       },
       gradientColorStops: {
-        primaryBlueStart: "#7eb1cd",
+        primaryBlueStart: "#7eb1cd", //our main blue but lighter
         primaryBlueEnd: "#3d81a8",
       },
       fontFamily: {
