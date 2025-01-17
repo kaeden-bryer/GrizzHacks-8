@@ -8,7 +8,7 @@ const Hero = () => {
         <img
           src="/images/duckybg.svg"
           alt="GrizzHacks hero background"
-          className="w-full absolute inset-0 opacity-20 -z-50 hidden lg:block overflow-hidden"
+          className="w-full object-cover h-full absolute inset-0 opacity-20 -z-50 hidden lg:block overflow-hidden"
         />
         {/* mobile pic */}
         <img
