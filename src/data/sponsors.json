@@ -1,0 +1,32 @@
+[
+  {
+    "name": "MLH",
+    "logo": "/images/sponsor_logos/mlh-logo-color.svg",
+    "tier": "bronze",
+    "link": "https://mlh.io/"
+  },
+  {
+    "name": "Oakland University Credit Union",
+    "logo": "/images/sponsor_logos/oucu.svg",
+    "tier": "gold",
+    "link": "https://www.oucreditunion.org/"
+  },
+  {
+    "name": "People.Health",
+    "logo": "/images/sponsor_logos/people-health.svg",
+    "tier": "silver",
+    "link": "https://people.health/"
+  },
+  {
+    "name": "CyberOU",
+    "logo": "/images/sponsor_logos/cyberOU.svg",
+    "tier": "bronze",
+    "link": "https://cyberou.github.io/cyberou-website/"
+  },
+  {
+    "name": "StandOutSticker",
+    "logo": "/images/sponsor_logos/stand-out-stickers-logo.png",
+    "tier": "bronze",
+    "link": "https://www.standoutstickers.com/"
+  }
+]

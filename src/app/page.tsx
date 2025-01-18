@@ -5,6 +5,7 @@ import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 import AboutNew from "@/components/AboutNew";
 import Tracks from "@/components/Tracks";
+import Sponsor from "@/components/Sponsor";
 
 import { useEffect } from "react";
 
@@ -23,6 +24,7 @@ export default function Home() {
         <Hero />
         <AboutNew />
         <Tracks />
+        <Sponsor />
       </div>
     </div>
   );
