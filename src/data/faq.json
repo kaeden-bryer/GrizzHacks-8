@@ -1,0 +1,50 @@
+[
+  {
+    "q": "What is a hackathon?",
+    "a": "A Hackathon is a 24 hour engineering event where developers, designers, and engineers build innovative software and hardware projects to compete for prizes."
+  },
+  {
+    "q": "What can I expect at GrizzHacks?",
+    "a": "During the 24 hour event you will be free to develop your project the whole time, but if you need a break we will have events, games, and workshops for you to partake in."
+  },
+  {
+    "q": "Who can attend?",
+    "a": "Anyone currently enrolled in College (school/major doesn't matter) or anyone who has graduated within the last year are free to apply. All participants must adhere to the <a class='text-primary underline underline-offset-2 hover:underline-offset-4 transition-all' href='https://static.mlh.io/docs/mlh-code-of-conduct.pdf'>MLH code of conduct</a>"
+  },
+  {
+    "q": "How many people can be in a team?",
+    "a": "Each team may have 1-4 participants. If you don't have a team, you can participate solo or join a team looking for an extra member. There will be a dedicated channel in our discord for team formation."
+  },
+  {
+    "q": "What if I don't finish?",
+    "a": "You can present whatever you finish and explain what you would do if you had more time. We understand you can't get every feature added in 24 hours and won't mark you down for it."
+  },
+  {
+    "q": "Will food be provided?",
+    "a": "We got you covered! We'll have four meals throughout the event with all dietary restrictions accounted for."
+  },
+  {
+    "q": "How do prizes work?",
+    "a": "After hacking is done, each team will present their project to a group of judges who will agree on winners. There are multiple prizes that your project may be in contention for."
+  },
+  {
+    "q": "When is the application deadline?",
+    "a": "Applications will remain open until March 22nd or until all available spots are filled. We review applications on a rolling basis so get yours in ASAP!"
+  },
+  {
+    "q": "What if I don't have a team?",
+    "a": "We will have a dedicated channel in the discord for group formation. You <i>are </i>allowed to compete by yourself but we encourage hacking with a team!"
+  },
+  {
+    "q": "Where/When is GrizzHacks?",
+    "a": "March 22nd-23rd at Oakland University's Engineering Center. There is free parking outside of the building or in a nearby parking garage."
+  },
+  {
+    "q": "Can I bring my own materials?",
+    "a": "Yes, you can bring materials but you MUST be sure to specify what you brought vs what you built in your project submission"
+  },
+  {
+    "q": "Other questions?",
+    "a": "You can email <a class='text-primary underline underline-offset-2 hover:underline-offset-4 transition-all' href='mailto:grizzhacksou@gmail.com'>Grizzhacksou@gmail.com</a> with any other questions"
+  }
+]
