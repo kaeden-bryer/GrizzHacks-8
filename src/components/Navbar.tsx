@@ -25,11 +25,13 @@ const Navbar: React.FC = () => {
 
       {/* Nav Bar */}
       <nav className="sticky top-10 z-10 w-full h-15 md:h-20 bg-neutral-900/80 rounded-lg flex justify-between items-center md:px-10 sm:px-5 py-3 mb-4 md:mt-6 sm:mt-4 px-4">
-        <img
-          src="/images/logo.svg"
-          alt="Grizzhacks"
-          className="object-cover md:w-16 w-12"
-        />
+        <a href="#home">
+          <img
+            src="/images/logo.svg"
+            alt="Grizzhacks"
+            className="object-cover md:w-16 w-12"
+          />
+        </a>
         <div className="lg:flex justify-center items-center gap-7 text-2xl hidden">
           <a
             href="#about"
