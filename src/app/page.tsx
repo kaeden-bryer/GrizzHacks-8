@@ -6,6 +6,7 @@ import Navbar from "@/components/Navbar";
 import AboutNew from "@/components/AboutNew";
 import Tracks from "@/components/Tracks";
 import FaQ from "@/components/FaQ";
+import Footer from "@/components/Footer";
 
 import { useEffect } from "react";
 
@@ -26,6 +27,7 @@ export default function Home() {
         <Tracks />
         <FaQ />
       </div>
+      <Footer />
     </div>
   );
 }
