@@ -13,7 +13,9 @@ export default {
         primary: "#3d81a8", //our main blue
         secondary: "#a89a64",
         heading: "#f8e894",
+        yellow: "#fff4c3",
         primaryHover: "#346e8f", //our main blue but darker
+        primaryBlueLight: "#7eb1cd",
         primaryText: "#cfcfcf", //grayish text
       },
       gradientColorStops: {
