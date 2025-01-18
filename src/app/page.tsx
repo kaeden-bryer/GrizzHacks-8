@@ -10,6 +10,7 @@ import { useEffect } from "react";
 
 export default function Home() {
   return (
+  
     <div className="relative bg-neutral-500 min-h-screen -z-50">
       <div className="mx-4 md:mx-md lg:mx-lg 2xl:mx-2xl text-primaryText flex flex-col">
         {/*
@@ -22,5 +23,7 @@ export default function Home() {
         <Events/>
       </div>
     </div>
+    
+    
   );
 }
