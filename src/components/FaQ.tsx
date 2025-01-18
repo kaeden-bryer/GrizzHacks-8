@@ -24,6 +24,7 @@ const FaQ: React.FC = () => {
             {faqData.map((question, index) =>
               index % 2 === 0 ? (
                 <FaqElement
+                  key={index}
                   question={question.q}
                   answer={question.a}
                   active={index === activeFaq}
@@ -40,6 +41,7 @@ const FaQ: React.FC = () => {
             {faqData.map((question, index) =>
               index % 2 !== 0 ? (
                 <FaqElement
+                  key={index}
                   question={question.q}
                   answer={question.a}
                   active={index === activeFaq}
@@ -56,6 +58,7 @@ const FaQ: React.FC = () => {
         <div className="grid lg:hidden grid-cols-1 gap-1">
           {faqData.map((question, index) => (
             <FaqElement
+              key={index}
               question={question.q}
               answer={question.a}
               active={index === activeFaq}
