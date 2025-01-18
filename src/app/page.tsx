@@ -1,6 +1,7 @@
 import About from "@/components/about";
 import Landing from "@/components/landing";
 import Image from "next/image";
+import Events from "@/components/events";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 import AboutNew from "@/components/AboutNew";
@@ -18,6 +19,7 @@ export default function Home() {
         <Navbar />
         <Hero />
         <AboutNew />
+        <Events/>
       </div>
     </div>
   );
