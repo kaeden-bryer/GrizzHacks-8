@@ -102,7 +102,7 @@ const Navbar: React.FC = () => {
       </nav>
 
       {burgerClicked && (
-        <div className="rounded-lg flex flex-col lg:hidden text-xl navActive absolute top-0 inset-x-0 z-50 mx-4 md:mx-12">
+        <div className="rounded-lg flex flex-col lg:hidden text-xl navActive fixed top-0 inset-x-0 z-50 mx-4 md:mx-12">
           {/* MLH banner */}
           <div className="md:w-20 w-[4.5rem] absolute right-[39%] md:right-[38.5%] z-20">
             <a
