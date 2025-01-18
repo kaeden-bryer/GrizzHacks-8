@@ -61,7 +61,7 @@ const AboutNew = () => {
               className="rounded-lg w-full h-full object-cover"
               alt="Top down view of GrizzHacks"
             />
-            <div className="inset-0 absolute bg-neutral-900/30 rounded-lg z-10" />
+            <div className="inset-0 absolute bg-neutral-900/30 rounded-lg z-5" />
           </div>
         </div>
       </div>
