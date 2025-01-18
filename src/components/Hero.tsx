@@ -8,21 +8,21 @@ const Hero = () => {
         <img
           src="/images/duckybg.svg"
           alt="GrizzHacks hero background"
-          className="w-full object-cover h-full absolute inset-0 opacity-20 -z-50 hidden lg:block overflow-hidden"
+          className="w-full object-cover min-h-screen absolute inset-0 opacity-50 -z-30 hidden md:block overflow-hidden"
         />
         {/* mobile pic */}
         <img
           src="/images/duckybg-min.svg"
           alt="GrizzHacks hero background"
-          className="w-screen absolute inset-0 opacity-20 -z-50 lg:hidden overflow-hidden"
+          className="w-screen absolute inset-0 opacity-50 -z-30 md:hidden overflow-hidden"
         />
         {/* black overlay */}
-        <div className="w-full absolute inset-0 bg-black opacity-70 -z-40"></div>
+        <div className="w-full absolute inset-0 bg-black opacity-70 -z-20"></div>
 
         {/* main content section */}
         {/*larger screens, left align */}
         <section className="hidden md:block">
-          <div className="flex flex-col mt-12 2xl:mt-20">
+          <div className="flex flex-col lg:mt-12 mt-16 2xl:mt-20">
             <h2 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-7xl font-light">
               Dream it,
             </h2>
