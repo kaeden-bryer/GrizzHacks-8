@@ -1,5 +1,7 @@
+'use client'
 import React, { useState } from "react";
-import events from './events';
+import { events } from '../lib/events.js';
+import ScheduleEvent from "./ScheduleEvent";
 const EventDay: React.FC = () => {
     const [saturdaySelected, setSaturdaySelected] = useState(true);
   

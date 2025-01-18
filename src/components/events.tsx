@@ -1,4 +1,5 @@
 import EventDay from '../components/EventDay';
+import SectionHeader from './SectionHeader';
 export default function events() {
     return(
 	<section id="schedule" className="containerr my-10 oultine outline-white">
