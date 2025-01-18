@@ -4,13 +4,11 @@ export default function About() {
       <h3 className="text-3xl font-medium font-recoleta text-heading text-center sm:text-6xl">
         About
       </h3>
-      <div className="flex flex-col sm:flex-row text-light">
-        <p className="text-lg">A quackathon is coming to Oakland!</p>
-        <p className="">We're bringing GrizzHacks back</p>
-      </div>
+      <div>
+        <h1 className="text-2xl sm:text-4xl">We're back at OU with a Quackathon</h1>
       <p>
-        We're back at OU with a Quackathon GrizzHacks is a 24 hour engineering
-        marathon, welcome to anyone. Whether you're a seasoned developer building a
+        GrizzHacks is a 24 hour engineering marathon, welcome to anyone. 
+        Whether you're a seasoned developer building a
         new idea, a beginner looking to sharpen your skills, or a unrelated major
         just interested in learning more, we have something for you! Over the
         course of 24 hours, each team will build a project from the ground up and
@@ -19,6 +17,7 @@ export default function About() {
         inspiration, check out our tracks this year. Still have questions? Check
         out our FAQ.
       </p>
+      </div>
     </section>
   );
 }
