@@ -21,6 +21,7 @@ export default {
       gradientColorStops: {
         primaryBlueStart: "#7eb1cd", //our main blue but lighter
         primaryBlueEnd: "#3d81a8",
+        primaryBlueDark: "#254f66",
       },
       fontFamily: {
         recoleta: ["Recoleta", "sans-serif"],

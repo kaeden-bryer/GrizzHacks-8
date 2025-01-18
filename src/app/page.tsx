@@ -4,6 +4,7 @@ import Image from "next/image";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 import AboutNew from "@/components/AboutNew";
+import Tracks from "@/components/Tracks";
 
 import { useEffect } from "react";
 
@@ -18,6 +19,7 @@ export default function Home() {
         <Navbar />
         <Hero />
         <AboutNew />
+        <Tracks />
       </div>
     </div>
   );
