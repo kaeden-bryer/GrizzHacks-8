@@ -7,6 +7,7 @@ import AboutNew from "@/components/AboutNew";
 import Tracks from "@/components/Tracks";
 import FaQ from "@/components/FaQ";
 import Footer from "@/components/Footer";
+import Team from "@/components/Team";
 
 import { useEffect } from "react";
 
@@ -26,6 +27,7 @@ export default function Home() {
         <AboutNew />
         <Tracks />
         <FaQ />
+        <Team />
       </div>
       <Footer />
     </div>
