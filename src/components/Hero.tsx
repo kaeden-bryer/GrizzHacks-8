@@ -17,7 +17,7 @@ const Hero = () => {
           className="w-screen absolute inset-0 opacity-50 -z-30 md:hidden overflow-hidden"
         />
         {/* black overlay */}
-        <div className="w-full absolute inset-0 bg-black opacity-70 -z-20"></div>
+        <div className="w-full absolute inset-0 bg-black opacity-30 -z-20"></div>
 
         {/* main content section */}
         {/*larger screens, left align */}

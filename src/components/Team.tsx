@@ -19,6 +19,7 @@ const Team: React.FC = () => {
         <div className="flex justify-center items-center md:gap-10 gap-5 flex-wrap mt-6">
           {members.map((member: TeamMember, index: number) => (
             <TeamPic
+              key={index}
               source={member.source}
               linkedIn={member.linkedIn}
               name={member.name}
