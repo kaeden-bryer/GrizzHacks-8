@@ -8,7 +8,9 @@ const Sponsor = () => {
         <h1 className="flex justify-center mb-5 bg-gradient-to-b from-primaryBlueStart to-primaryBlueEnd z-20 bg-clip-text text-center text-5xl py-2 text-transparent font-bold lg:text-7xl">
           Sponsors
         </h1>
-        {/* <SponsorGrid /> */}
+
+        <SponsorGrid />
+        {/*
         <div className="flex flex-col justify-center items-center gap-10 mt-20">
           <img
             src="/images/sponsor_logos/oucu.svg"
@@ -38,6 +40,7 @@ const Sponsor = () => {
             />
           </div>
         </div>
+        */}
       </section>
     </>
   );
