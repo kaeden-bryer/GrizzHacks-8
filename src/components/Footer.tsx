@@ -8,17 +8,14 @@ const Footer = () => {
           &copy; GrizzHacks {new Date().getFullYear()}
         </a>
         <div className="flex gap-2 items-center">
+          <a target="_blank" href="mailto:grizzhacksou@gmail.com">
+            <img className="w-6 md:w-10" src="/images/email.svg" alt="" />
+          </a>
           <a
             target="_blank"
             href="https://www.linkedin.com/company/grizzhacks/?viewAsMember=true"
           >
             <img className="w-6 md:w-10" src="/images/linkedin.svg" alt="" />
-          </a>
-          <a target="_blank" href="https://twitter.com/GrizzHacks">
-            <img className="w-6 md:w-10" src="/images/twitter.svg" alt="" />
-          </a>
-          <a target="_blank" href="https://www.tiktok.com/@grizzhacks">
-            <img className="w-6 md:w-10" src="/images/tiktok.svg" alt="" />
           </a>
           <a target="_blank" href="https://www.instagram.com/grizzhacks/">
             <img className="w-6 md:w-10" src="/images/instagram.svg" alt="" />
