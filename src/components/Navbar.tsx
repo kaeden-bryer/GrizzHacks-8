@@ -9,7 +9,7 @@ const Navbar: React.FC = () => {
   return (
     <>
       {/* MLH banner */}
-      <div className="md:w-20 w-[4.5rem] absolute top-0 xl:right-10 lg:right-2 right-[40%] z-20">
+      <div className="md:w-[3.5rem] w-[4.5rem] absolute top-[4rem] md:top-[6.5rem] lg:top-0 2xl:right-10 xl:right-5 lg:right-2 right-[3rem] z-20">
         <a
           id="mlh-trust-badge"
           href="https://mlh.io/na?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2025-season&utm_content=black"
@@ -24,7 +24,7 @@ const Navbar: React.FC = () => {
       </div>
 
       {/* Nav Bar */}
-      <nav className="top-10 z-10 w-full h-15 md:h-20 text-blackColor bg-white rounded-lg flex justify-between items-center md:px-10 sm:px-5 py-3 mb-4 md:mt-6 sm:mt-4 px-4">
+      <nav className="top-10 z-10 w-full h-[4rem] md:h-[5rem] text-blackColor bg-white rounded-lg flex justify-between items-center md:px-10 sm:px-5 py-3 mb-4 md:mt-6 sm:mt-4 px-4">
         <a href="#home">
           <img
             src="/images/logo.svg"
@@ -87,14 +87,14 @@ const Navbar: React.FC = () => {
           onClick={() => setBurgerClicked(!burgerClicked)}
         >
           <div
-            className={`w-10 bg-white h-1 origin-center transition-all duration-300 ${
+            className={`w-10 bg-primary h-1 origin-center transition-all duration-300 ${
               burgerClicked
                 ? "rotate-45 translate-y-0.5"
                 : "rotate-0 -translate-y-1"
             }`}
           />
           <div
-            className={`w-10 bg-white h-1 origin-center transition-all duration-300 ${
+            className={`w-10 bg-primary h-1 origin-center transition-all duration-300 ${
               burgerClicked
                 ? "-rotate-45 -translate-y-0.5"
                 : "rotate-0 translate-y-1"
