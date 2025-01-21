@@ -19,19 +19,19 @@ const AboutNew = () => {
                   is coming to Oakland!
                 </h4>
                 <p className="2xl:text-lg mt-2">
-                  We're back at OU with a Quackathon GrizzHacks is a 24 hour
-                  engineering marathon, welcome to anyone. Whether you're a
-                  seasoned developer building a new idea, a beginner looking to
-                  sharpen your skills, or a unrelated major just interested in
-                  learning more, we have something for you!
+                  We're back at OU with a Quackathon! GrizzHacks is a 24 hour
+                  engineering marathon, welcome to all students. Whether you're
+                  a seasoned developer building a new idea, a beginner looking
+                  to sharpen your skills, or simply a tech lover, we have
+                  something for you!
                 </p>
               </div>
               <div className="flex flex-col my-2">
                 <p className="2xl:text-lg">
-                  Over the course of 24 hours, each team will build a project
+                  Over the course of 24 hours, each team will develop a project
                   from the ground up and then present their work to a panel of
                   judges to compete for prizes! You're allowed to create
-                  anything you can think up but if you need some inspiration,
+                  anything you can think of, but if you need some inspiration,
                   check out our{" "}
                   <a
                     href="#tracks"
@@ -43,7 +43,7 @@ const AboutNew = () => {
                 </p>
               </div>
             </div>
-            <p className="2xl:text-lg">
+            <p className="2xl:text-lg mt-2">
               Still have questions? Check out our{" "}
               <a
                 href="/#faq"
@@ -68,26 +68,26 @@ const AboutNew = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-col items-center justify-center gap-10 mt-10">
+        <div className="flex flex-col items-center justify-center gap-10 mt-16">
           <div>
             <h2 className="text-xl lg:text-2xl 2xl:text-3xl font-semibold">
               Last Year We Had...
             </h2>
           </div>
           <div className="flex flex-row gap-10 text-white">
-            <div className="flex flex-col gap-4 px-4 bg-blackColor lg:p-5 p-3 rounded-lg items-center justify-center">
+            <div className="flex flex-col gap-4 px-4 bg-blackColor lg:p-7 p-3 rounded-lg items-center justify-center w-[20%]">
               <h1 className="font-bold text-6xl">130+</h1>
               <p className="text-2xl">Hackers</p>
             </div>
-            <div className="flex flex-col gap-4 px-4 bg-blackColor lg:p-5 p-3 rounded-lg items-center justify-center">
+            <div className="flex flex-col gap-4 px-4 bg-blackColor lg:p-7 p-3 rounded-lg items-center justify-center w-[20%]">
               <h1 className="font-bold text-6xl">15+</h1>
               <p className="text-2xl">Universities</p>
             </div>
-            <div className="flex flex-col gap-4 px-4 bg-blackColor lg:p-5 p-3 rounded-lg items-center justify-center">
+            <div className="flex flex-col gap-4 px-4 bg-blackColor lg:p-7 p-3 rounded-lg items-center justify-center w-[20%]">
               <h1 className="font-bold text-6xl">35+</h1>
               <p className="text-2xl">Projects</p>
             </div>
-            <div className="flex flex-col gap-4 px-4 bg-blackColor lg:p-5 p-3 rounded-lg items-center justify-center">
+            <div className="flex flex-col gap-4 px-4 bg-blackColor lg:p-7 p-3 rounded-lg items-center justify-center w-[20%]">
               <h1 className="font-bold text-6xl">$7k+</h1>
               <p className="text-2xl">Prizes</p>
             </div>
