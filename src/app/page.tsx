@@ -13,21 +13,23 @@ import { useEffect } from "react";
 
 export default function Home() {
   return (
-    <div className="absolute bg-neutral-700 min-h-screen z-[-50]">
+    <div className="absolute bg-bgblue min-h-screen z-[-50]">
       <div
-        className="mx-4 md:mx-md lg:mx-lg 2xl:mx-2xl text-primaryText flex flex-col"
+        className="mx-4 md:mx-md lg:mx-lg 2xl:mx-2xl text-blackColor flex flex-col"
         id="home"
       >
-        {/*
+        {/*bg-gradient-to-b from-bgblue to-bgbrown
       <Landing />
       <About />
       */}
         <Navbar />
         <Hero />
-        <AboutNew />
-        <Tracks />
-        <FaQ />
-        <Team />
+        <div className="flex flex-col gap-10">
+          <AboutNew />
+          <Tracks />
+          <FaQ />
+          <Team />
+        </div>
       </div>
       <Footer />
     </div>

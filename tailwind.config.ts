@@ -17,14 +17,20 @@ export default {
         primaryHover: "#346e8f", //our main blue but darker
         primaryBlueLight: "#7eb1cd",
         primaryText: "#cfcfcf", //grayish text
+        blackColor: "#272727",
+        navWhite: "#f4f4f4",
+        bgblue: "#d9f0f8",
       },
       gradientColorStops: {
         primaryBlueStart: "#7eb1cd", //our main blue but lighter
         primaryBlueEnd: "#3d81a8",
         primaryBlueDark: "#254f66",
+        blackStart: "#4b4b4b",
+        blackEnd: "#272727",
       },
       fontFamily: {
         recoleta: ["Recoleta", "sans-serif"],
+        inter: ["Inter", "sans-serif"],
       },
       spacing: {
         sm: "2rem",
