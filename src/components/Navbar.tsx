@@ -105,21 +105,7 @@ const Navbar: React.FC = () => {
 
       {burgerClicked && (
         <div className="rounded-lg flex flex-col lg:hidden text-xl navActive fixed top-0 inset-x-0 z-50 mx-4 md:mx-12">
-          {/* MLH banner */}
-          <div className="md:w-20 w-[4.5rem] absolute right-[39%] md:right-[38.5%] z-20">
-            <a
-              id="mlh-trust-badge"
-              href="https://mlh.io/na?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2025-season&utm_content=black"
-              target="_blank"
-            >
-              <img
-                src="https://s3.amazonaws.com/logged-assets/trust-badge/2025/mlh-trust-badge-2025-black.svg"
-                alt="Major League Hacking 2025 Hackathon Season"
-                style={{ width: "100%" }}
-              />
-            </a>
-          </div>
-          <nav className="sticky top-10 z-10 w-full h-30 md:h-20 bg-neutral-900/80 rounded-t-lg flex justify-between items-center md:px-10 sm:px-5 py-3 mb-4 mt-4 px-4">
+          <nav className="top-10 z-10 w-full h-[4rem] md:h-[5rem] text-blackColor bg-white rounded-t-lg flex justify-between items-center md:px-10 sm:px-5 py-3 md:mt-6 sm:mt-4 px-4">
             <a
               href="/"
               className="md:w-16 w-12"
@@ -136,14 +122,14 @@ const Navbar: React.FC = () => {
               onClick={() => setBurgerClicked(!burgerClicked)}
             >
               <div
-                className={`w-10 bg-white h-1 origin-center transition-all duration-300 ${
+                className={`w-10 bg-primary h-1 origin-center transition-all duration-300 ${
                   burgerClicked
                     ? "rotate-45 translate-y-0.5"
                     : "rotate-0 -translate-y-1"
                 }`}
               />
               <div
-                className={`w-10 bg-white h-1 origin-center transition-all duration-300 ${
+                className={`w-10 bg-primary h-1 origin-center transition-all duration-300 ${
                   burgerClicked
                     ? "-rotate-45 -translate-y-0.5"
                     : "rotate-0 translate-y-1"
@@ -151,12 +137,12 @@ const Navbar: React.FC = () => {
               />
             </button>
           </nav>
-          <div className="w-full mt-2">
+          <div className="w-full">
             {["About", "Tracks", "Sponsors", "FAQ's"].map((item, index) => (
               <a
                 key={item}
                 href={`/#${item.toLowerCase()}`}
-                className="h-14 w-full flex items-center last:rounded-b-lg bg-neutral-900 hover:bg-primary justify-center border-b-2 border-primary hover:border-primaryHover text-2xl"
+                className="text-primary h-14 w-full flex items-center last:rounded-b-lg bg-white hover:bg-yellow justify-center border-b-2 border-primary hover:border-primaryHover text-2xl font-bold"
                 onClick={() => setBurgerClicked(false)}
               >
                 <motion.div
