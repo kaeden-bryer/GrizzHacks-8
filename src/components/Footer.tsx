@@ -3,8 +3,8 @@ import React from "react";
 const Footer = () => {
   return (
     <>
-      <div className="flex justify-between py-3 mt-5 items-center containerr px-10 bg-neutral-900">
-        <a href="/" className="md:text-2xl text-lg text-white">
+      <div className="flex justify-between py-3 mt-5 items-center containerr px-10 bg-white text-blackColor">
+        <a href="/" className="md:text-2xl text-lg">
           &copy; GrizzHacks {new Date().getFullYear()}
         </a>
         <div className="flex gap-2 items-center">

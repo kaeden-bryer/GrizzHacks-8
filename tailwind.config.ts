@@ -25,8 +25,13 @@ export default {
         primaryBlueStart: "#7eb1cd", //our main blue but lighter
         primaryBlueEnd: "#3d81a8",
         primaryBlueDark: "#254f66",
+        yellow: "#fff4c3",
+        yellowStart: "#fffbeb",
+        yellowEnd: "#ffec99",
         blackStart: "#4b4b4b",
         blackEnd: "#272727",
+        bgblue: "#d9f0f8",
+        bgbrown: "#ddd5be",
       },
       fontFamily: {
         recoleta: ["Recoleta", "sans-serif"],
