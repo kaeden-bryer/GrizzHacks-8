@@ -24,7 +24,7 @@ const Navbar: React.FC = () => {
       </div>
 
       {/* Nav Bar */}
-      <nav className="top-10 z-10 w-full h-[5rem] text-blackColor bg-white rounded-lg flex justify-between items-center md:px-10 sm:px-5 py-3 mb-4 md:mt-6 sm:mt-4 px-4">
+      <nav className="top-10 z-10 w-full h-[5rem] text-blackColor bg-navWhite rounded-lg flex justify-between items-center md:px-10 sm:px-5 py-3 mb-4 md:mt-6 sm:mt-4 px-4">
         <a href="#home">
           <img
             src="/images/logo.svg"
@@ -57,7 +57,7 @@ const Navbar: React.FC = () => {
             href="#sponsors"
             className="font-semibold hover:text-primary transition-all duration-100"
           >
-            Sponsor
+            Sponsors
           </a>
           <a
             href="#faq"

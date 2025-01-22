@@ -18,7 +18,7 @@ export default {
         primaryBlueLight: "#7eb1cd",
         primaryText: "#cfcfcf", //grayish text
         blackColor: "#272727",
-        navWhite: "#f4f4f4",
+        navWhite: "#FFFDF9",
         bgblue: "#d9f0f8",
       },
       gradientColorStops: {

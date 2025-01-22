@@ -5,6 +5,7 @@ import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 import AboutNew from "@/components/AboutNew";
 import Tracks from "@/components/Tracks";
+import Sponsor from "@/components/Sponsor";
 import FaQ from "@/components/FaQ";
 import Footer from "@/components/Footer";
 import Team from "@/components/Team";
@@ -27,6 +28,7 @@ export default function Home() {
         <div className="flex flex-col gap-10">
           <AboutNew />
           <Tracks />
+          <Sponsor />
           <FaQ />
           <Team />
         </div>
