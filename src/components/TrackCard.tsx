@@ -8,12 +8,16 @@ interface TrackCardProps {
 
 const TrackCard: React.FC<TrackCardProps> = ({ title, description, icon }) => {
   return (
-    <div className="flex flex-col gap-4 px-4 bg-gradient-to-br from-neutral-950/80 via-neutral-900/80 to-primaryBlueDark/60 lg:p-5 p-3 rounded-md">
+    <div className="flex flex-col gap-4 px-4 bg-bgblue ring-4 ring-primary lg:p-5 p-3 rounded-2xl">
       <div className="flex flex-row items-center justify-center gap-4">
         <img src={icon} alt={`${title} track`} className="w-16 lg:w-20" />
-        <h5 className="text-xl lg:text-3xl font-bold">{title}</h5>
+        <h2 className="text-xl lg:text-3xl font-bold text-blackColor">
+          {title}
+        </h2>
       </div>
-      <p className="2xl:text-xl text-sm text-center">{description}</p>
+      <p className="2xl:text-xl text-sm text-center text-blackColor">
+        {description}
+      </p>
     </div>
   );
 };

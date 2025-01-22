@@ -25,7 +25,7 @@ export default function Home() {
       */}
         <Navbar />
         <Hero />
-        <div className="flex flex-col gap-10">
+        <div className="flex flex-col gap-16">
           <AboutNew />
           <Tracks />
           <Sponsor />
