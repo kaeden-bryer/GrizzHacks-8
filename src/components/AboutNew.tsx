@@ -73,7 +73,7 @@ const AboutNew = () => {
           <div className="w-full lg:w-1/3 relative flex items-center justify-center">
             <img
               src="/images/IMG_7684-S.webp"
-              className="rounded-xl lg:mt-0 mt-8 w-[40%] lg:w-[75%] h-auto object-cover z-10"
+              className="rounded-xl lg:mt-0 mt-6 md:mt-8 w-[40%] lg:w-[75%] h-auto object-cover z-10"
               alt="Top down view of GrizzHacks"
             />
             <div className="inset-0 absolute rounded-lg">
@@ -83,7 +83,7 @@ const AboutNew = () => {
                     ? "/yellowblob.svg"
                     : "/yellowblob2.svg"
                 }
-                className="absolute z-0 scale-[90%] lg:scale-150 w-auto h-auto top-[60%] lg:top-1/2 left-1/2 -translate-x-[50%] lg:-translate-x-[53%] -translate-y-[52%] lg:-translate-y-1/2"
+                className="absolute z-0 scale-[80%] md:scale-[90%] lg:scale-150 w-auto h-auto top-[60%] lg:top-1/2 left-1/2 -translate-x-[50%] lg:-translate-x-[53%] -translate-y-[52%] lg:-translate-y-1/2"
               />
             </div>
           </div>
