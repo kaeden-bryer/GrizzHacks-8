@@ -28,5 +28,11 @@
     "logo": "/sponsor_logos/stand-out-stickers.png",
     "tier": "bronze",
     "link": "https://www.standoutstickers.com/"
+  },
+  {
+    "name": "GitHub",
+    "logo": "/sponsor_logos/github-logo.svg",
+    "tier": "bronze",
+    "link": "https://github.com/"
   }
 ]
