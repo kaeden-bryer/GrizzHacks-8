@@ -6,11 +6,23 @@ const SponsorGrid = () => {
   return (
     <>
       {/* LARGE SCREEN SIZE */}
-      <div className="hidden xl:grid grid-cols-5 grid-rows-5 gap-1.5 p-4">
+      <div className="hidden xl:grid grid-cols-5 grid-rows-2 gap-1.5 p-4">
+        {/* MLH. Bronze */}
+        <a
+          href={sponsors[0].link}
+          className="p-6 col-span-1 row-span-1 bg-navWhite ring-1 ring-neutral-800/30 flex items-center justify-center rounded-md hover:from-[#CD7F32]/40 hover:via-[#CD7F32]/80 hover:to-[#CD7F32]/40 hover:bg-gradient-to-bl"
+        >
+          <img
+            src={`${sponsors[0].logo}`}
+            alt={`${sponsors[0].name} Logo`}
+            className="absolute w-40"
+          />
+        </a>
+
         {/* People.Health. Silver */}
         <a
           href={sponsors[2].link}
-          className="p-6 col-span-2 row-span-1 bg-blackColor ring-1 ring-neutral-800/30 flex items-center justify-center rounded-md hover:from-[#C0C0C0]/30 hover:via-[#C0C0C0]/70 hover:to-[#C0C0C0]/30 hover:bg-gradient-to-bl"
+          className="p-6 col-span-1 row-span-2 bg-blackColor ring-1 ring-neutral-800/30 flex items-center justify-center rounded-md hover:from-[#C0C0C0]/30 hover:via-[#C0C0C0]/70 hover:to-[#C0C0C0]/30 hover:bg-gradient-to-bl"
         >
           <img
             src={`${sponsors[2].logo}`}
@@ -28,18 +40,6 @@ const SponsorGrid = () => {
             src={`${sponsors[1].logo}`}
             alt={`${sponsors[1].name} Logo`}
             className=" w-80"
-          />
-        </a>
-
-        {/* MLH. Bronze */}
-        <a
-          href={sponsors[0].link}
-          className="p-6 col-span-1 row-span-1 bg-blackColor ring-1 ring-neutral-800/30 flex items-center justify-center rounded-md hover:from-[#CD7F32]/40 hover:via-[#CD7F32]/80 hover:to-[#CD7F32]/40 hover:bg-gradient-to-bl"
-        >
-          <img
-            src={`${sponsors[0].logo}`}
-            alt={`${sponsors[0].name} Logo`}
-            className="absolute w-40"
           />
         </a>
 
