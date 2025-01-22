@@ -11,10 +11,13 @@ const Tracks = () => {
         <h1 className="flex justify-center mb-5 bg-gradient-to-b from-primaryBlueStart to-primaryBlueEnd z-20 bg-clip-text text-center text-5xl py-2 text-transparent font-bold lg:text-7xl">
           Tracks
         </h1>
-        <img src="/duckkick.svg" className="absolute -top-40 scale-[80%]" />
+        <img
+          src="/duckkick.svg"
+          className="absolute -left-20 xl:left-0 -top-[18%] lg:-top-40 scale-[60%] xl:scale-[80%]"
+        />
         <img
           src="/duckprint1.svg"
-          className="absolute -right-[14rem] -top-10 z-[-10]"
+          className="absolute lg:scale-[100%] scale-[75%] -right-[14rem] -top-10 z-[-10]"
         />
         <img
           src="/duckprint2.svg"
