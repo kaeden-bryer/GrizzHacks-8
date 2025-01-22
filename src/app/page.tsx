@@ -11,6 +11,7 @@ import Footer from "@/components/Footer";
 import Team from "@/components/Team";
 
 import { useEffect } from "react";
+import SlideAnimation from "@/components/SlideAnimation";
 
 export default function Home() {
   return (
@@ -29,6 +30,7 @@ export default function Home() {
           <AboutNew />
           <Tracks />
           <Sponsor />
+          <SlideAnimation />
           <FaQ />
           <Team />
         </div>
