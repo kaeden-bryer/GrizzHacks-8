@@ -10,7 +10,7 @@ const SponsorGrid = () => {
         {/* MLH. Bronze */}
         <a
           href={sponsors[0].link}
-          className="p-6 col-span-1 row-span-1 bg-navWhite ring-1 ring-neutral-800/30 flex items-center justify-center rounded-md hover:from-[#CD7F32]/40 hover:via-[#CD7F32]/80 hover:to-[#CD7F32]/40 hover:bg-gradient-to-bl"
+          className="p-6 col-span-1 row-span-1 bg-navWhite ring-2 ring-primary flex items-center justify-center rounded-md hover:from-[#CD7F32]/40 hover:via-[#CD7F32]/80 hover:to-[#CD7F32]/40 hover:bg-gradient-to-bl"
         >
           <img
             src={`${sponsors[0].logo}`}
@@ -22,7 +22,7 @@ const SponsorGrid = () => {
         {/* People.Health. Silver */}
         <a
           href={sponsors[2].link}
-          className="p-6 col-span-1 row-span-2 bg-blackColor ring-1 ring-neutral-800/30 flex items-center justify-center rounded-md hover:from-[#C0C0C0]/30 hover:via-[#C0C0C0]/70 hover:to-[#C0C0C0]/30 hover:bg-gradient-to-bl"
+          className="p-6 col-span-1 row-span-2 bg-navWhite ring-2 ring-primary flex items-center justify-center rounded-md hover:from-[#C0C0C0]/30 hover:via-[#C0C0C0]/70 hover:to-[#C0C0C0]/30 hover:bg-gradient-to-bl"
         >
           <img
             src={`${sponsors[2].logo}`}
@@ -34,7 +34,7 @@ const SponsorGrid = () => {
         {/* OUCU. Gold */}
         <a
           href={sponsors[1].link}
-          className="p-6 col-span-2 row-span-2 bg-blackColor ring-1 ring-neutral-800/30 flex items-center justify-center rounded-md hover:from-[#D4AF37]/40 hover:via-[#D4AF37]/80 hover:to-[#D4AF37]/40 hover:bg-gradient-to-bl"
+          className="p-6 col-span-2 row-span-2 bg-navWhite ring-2 ring-primary flex items-center justify-center rounded-md hover:from-[#D4AF37]/40 hover:via-[#D4AF37]/80 hover:to-[#D4AF37]/40 hover:bg-gradient-to-bl"
         >
           <img
             src={`${sponsors[1].logo}`}
@@ -46,7 +46,7 @@ const SponsorGrid = () => {
         {/* CyberOU. Bronze */}
         <a
           href={sponsors[3].link}
-          className="p-6 col-span-1 row-span-1 bg-blackColor ring-1 ring-neutral-800/30 flex items-center justify-center rounded-md hover:from-[#CD7F32]/40 hover:via-[#CD7F32]/80 hover:to-[#CD7F32]/40 hover:bg-gradient-to-bl"
+          className="p-6 col-span-1 row-span-1 bg-navWhite ring-2 ring-primary flex items-center justify-center rounded-md hover:from-[#CD7F32]/40 hover:via-[#CD7F32]/80 hover:to-[#CD7F32]/40 hover:bg-gradient-to-bl"
         >
           <img
             src={`${sponsors[3].logo}`}
@@ -58,7 +58,7 @@ const SponsorGrid = () => {
         {/* StandOutStickers. Bronze */}
         <a
           href={sponsors[4].link}
-          className="p-6 col-span-1 row-span-1 bg-blackColor ring-1 ring-neutral-800/30 flex items-center justify-center rounded-md hover:from-[#CD7F32]/40 hover:via-[#CD7F32]/80 hover:to-[#CD7F32]/40 hover:bg-gradient-to-bl"
+          className="p-6 col-span-1 row-span-1 bg-navWhite ring-2 ring-primary flex items-center justify-center rounded-md hover:from-[#CD7F32]/40 hover:via-[#CD7F32]/80 hover:to-[#CD7F32]/40 hover:bg-gradient-to-bl"
         >
           <img
             src={`${sponsors[4].logo}`}
@@ -68,7 +68,7 @@ const SponsorGrid = () => {
         </a>
 
         {/* Center */}
-        <div className="md:p-4 p-2 col-span-1 row-span-1 bg-yellow ring-1 ring-neutral-800/30 flex items-center justify-center rounded-md bg-gradient-to-bl">
+        <div className="md:p-4 p-2 col-span-1 row-span-1  from-yellowLight via-yellow to-yellowLight bg-gradient-to-bl ring-2 ring-primary flex items-center justify-center rounded-md">
           <h5 className="font-bold text-2xl text-center">
             More coming soon...
           </h5>
@@ -91,7 +91,7 @@ const SponsorGrid = () => {
         {/* Gold */}
         <a
           href={sponsors[1].link}
-          className="h-[20vh] p-6 bg-blackColor ring-1 ring-neutral-800/30 flex items-center justify-center rounded-md hover:from-[#D4AF37]/40 hover:via-[#D4AF37]/80 hover:to-[#D4AF37]/40 hover:bg-gradient-to-bl"
+          className="h-[20vh] p-6 bg-navWhite ring-2 ring-primary flex items-center justify-center rounded-md hover:from-[#D4AF37]/40 hover:via-[#D4AF37]/80 hover:to-[#D4AF37]/40 hover:bg-gradient-to-bl"
         >
           <img
             src={`${sponsors[1].logo}`}
@@ -105,7 +105,7 @@ const SponsorGrid = () => {
           {/* Silver item*/}
           <a
             href={sponsors[2].link}
-            className="h-[20vh] col-span-1 p-6 bg-blackColor ring-1 ring-neutral-800/30 flex items-center justify-center rounded-md hover:from-[#C0C0C0]/30 hover:via-[#C0C0C0]/70 hover:to-[#C0C0C0]/30 hover:bg-gradient-to-bl"
+            className="h-[20vh] col-span-1 p-6 bg-navWhite ring-2 ring-primary flex items-center justify-center rounded-md hover:from-[#C0C0C0]/30 hover:via-[#C0C0C0]/70 hover:to-[#C0C0C0]/30 hover:bg-gradient-to-bl"
           >
             <img
               src={`${sponsors[2].logo}`}
@@ -117,7 +117,7 @@ const SponsorGrid = () => {
           <div className="grid grid-cols-2 gap-2 w-full">
             <a
               href={sponsors[0].link}
-              className="h-[20vh] md:p-4 p-2 col-span-1 row-span-1 bg-blackColor ring-1 ring-neutral-800/30 flex items-center justify-center rounded-md hover:from-[#CD7F32]/40 hover:via-[#CD7F32]/80 hover:to-[#CD7F32]/40 hover:bg-gradient-to-bl"
+              className="h-[20vh] md:p-4 p-2 col-span-1 row-span-1 bg-navWhite ring-2 ring-primary flex items-center justify-center rounded-md hover:from-[#CD7F32]/40 hover:via-[#CD7F32]/80 hover:to-[#CD7F32]/40 hover:bg-gradient-to-bl"
             >
               <img
                 src={`${sponsors[0].logo}`}
@@ -128,7 +128,7 @@ const SponsorGrid = () => {
 
             <a
               href={sponsors[3].link}
-              className="h-[20vh] md:p-4 p-2 col-span-1 row-span-1 bg-blackColor ring-1 ring-neutral-800/30 flex items-center justify-center rounded-md hover:from-[#CD7F32]/40 hover:via-[#CD7F32]/80 hover:to-[#CD7F32]/40 hover:bg-gradient-to-bl"
+              className="h-[20vh] md:p-4 p-2 col-span-1 row-span-1 bg-navWhite ring-2 ring-primary flex items-center justify-center rounded-md hover:from-[#CD7F32]/40 hover:via-[#CD7F32]/80 hover:to-[#CD7F32]/40 hover:bg-gradient-to-bl"
             >
               <img
                 src={`${sponsors[3].logo}`}
@@ -142,7 +142,7 @@ const SponsorGrid = () => {
             <div className="grid grid-cols-4 gap-2 w-full">
                 <a
                     href={sponsors[2].link}
-                    className="col-span-2 p-6 bg-neutral-950/80 ring-1 ring-neutral-800/30 flex items-center justify-center rounded-md hover:from-[#C0C0C0]/30 hover:via-[#C0C0C0]/70 hover:to-[#C0C0C0]/30 hover:bg-gradient-to-bl"
+                    className="col-span-2 p-6 bg-neutral-950/80 ring-2 ring-primary flex items-center justify-center rounded-md hover:from-[#C0C0C0]/30 hover:via-[#C0C0C0]/70 hover:to-[#C0C0C0]/30 hover:bg-gradient-to-bl"
                 >
                     <img src=
                 {`${sponsors[2].logo}`}
@@ -154,11 +154,11 @@ const SponsorGrid = () => {
         {/* Bronze */}
         <div className="grid grid-cols-4 gap-2 w-full">
           {/* Blank spacer */}
-          <div className="h-[20vh] md:p-4 p-2 col-span-1 row-span-1 bg-blackColor  flex items-center justify-center rounded-md"></div>
+          <div className="h-[20vh] md:p-4 p-2 col-span-1 row-span-1 bg-navWhite  flex items-center justify-center rounded-md"></div>
 
           <a
             href={sponsors[4].link}
-            className="h-[20vh] md:p-4 p-2 col-span-1 row-span-1 bg-blackColor ring-1 ring-neutral-800/30 flex items-center justify-center rounded-md hover:from-[#CD7F32]/40 hover:via-[#CD7F32]/80 hover:to-[#CD7F32]/40 hover:bg-gradient-to-bl"
+            className="h-[20vh] md:p-4 p-2 col-span-1 row-span-1 bg-navWhite ring-2 ring-primary flex items-center justify-center rounded-md hover:from-[#CD7F32]/40 hover:via-[#CD7F32]/80 hover:to-[#CD7F32]/40 hover:bg-gradient-to-bl"
           >
             <img
               src={`${sponsors[4].logo}`}
@@ -167,7 +167,7 @@ const SponsorGrid = () => {
             />
           </a>
 
-          <div className="h-[20vh] md:p-4 p-2 col-span-1 row-span-1 bg-yellow ring-1 ring-neutral-800/30 flex items-center justify-center rounded-md hover:from-[#CD7F32]/40 hover:via-[#CD7F32]/80 hover:to-[#CD7F32]/40 hover:bg-gradient-to-bl">
+          <div className="h-[20vh] md:p-4 p-2 col-span-1 row-span-1 bg-yellow ring-2 ring-primary flex items-center justify-center rounded-md hover:from-[#CD7F32]/40 hover:via-[#CD7F32]/80 hover:to-[#CD7F32]/40 hover:bg-gradient-to-bl">
             <h4 className="font-bold text-1xl text-center">Coming soon... </h4>
           </div>
         </div>
