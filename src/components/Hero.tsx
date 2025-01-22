@@ -6,19 +6,19 @@ const Hero = () => {
       <section className="w-full containerr min-h-screen">
         {/* desktop LARGE pic */}
         <img
-          src="/Pongbg2.svg"
+          src="/web-pondbg.svg"
           alt="Pond hero background"
           className="w-full object-cover min-h-screen absolute inset-0 -z-30 hidden xl:block overflow-hidden"
         />
         {/* desktop regular pic */}
         <img
-          src="/pond3.svg"
+          src="/web-pondbg.svg"
           alt="Pond hero background"
           className="w-full object-cover md:block hidden xl:hidden min-h-screen absolute inset-0 -z-30 overflow-hidden"
         />
         {/* mobile pic */}
         <img
-          src="/pondmobile.svg"
+          src="/mobile-pondbg.svg"
           alt="Pond hero background"
           className="w-screen absolute inset-0 min-h-screen -z-30 md:hidden overflow-hidden"
         />
