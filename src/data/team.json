@@ -33,36 +33,36 @@
     "name": "Kaeden",
     "source": "/SmallTeam/Kaeden.jpg",
     "linkedIn": "https://www.linkedin.com/in/kaeden-bryer-6340a324b/",
-    "title": "Coordinator"
-  },
-  {
-    "name": "Ben",
-    "source": "/SmallTeam/Ben.jpg",
-    "linkedIn": "https://www.linkedin.com/in/ben-tranter-cs/",
-    "title": "Coordinator"
-  },
-  {
-    "name": "Waheeda",
-    "source": "/SmallTeam/Waheeda.jpg",
-    "linkedIn": "https://www.linkedin.com/in/waheeda-rahman/",
-    "title": "Coordinator"
-  },
-  {
-    "name": "Peyton",
-    "source": "/SmallTeam/Peyton.jpg",
-    "linkedIn": "",
-    "title": "Coordinator"
+    "title": "Sponsorship"
   },
   {
     "name": "Chloe",
     "source": "/SmallTeam/Chloe.jpg",
     "linkedIn": "https://www.linkedin.com/in/engczhu/",
-    "title": "Coordinator"
+    "title": "Sponsorship"
+  },
+  {
+    "name": "Ben",
+    "source": "/SmallTeam/Ben.jpg",
+    "linkedIn": "https://www.linkedin.com/in/ben-tranter-cs/",
+    "title": "Tech Team"
+  },
+  {
+    "name": "Peyton",
+    "source": "/SmallTeam/Peyton.jpg",
+    "linkedIn": "",
+    "title": "Tech Team"
+  },
+  {
+    "name": "Waheeda",
+    "source": "/SmallTeam/Waheeda.jpg",
+    "linkedIn": "https://www.linkedin.com/in/waheeda-rahman/",
+    "title": "Logistics"
   },
   {
     "name": "Andy",
     "source": "/SmallTeam/Andy.jpg",
     "linkedIn": "https://www.linkedin.com/in/andy-abro-346a01231/",
-    "title": "Coordinator"
+    "title": "Logistics"
   }
 ]
