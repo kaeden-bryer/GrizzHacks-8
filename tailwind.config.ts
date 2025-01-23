@@ -21,7 +21,7 @@ export default {
         blackColor: "#272727",
         navWhite: "#FFFDF9",
         bgblue: "#d9f0f8",
-        natural: "#F1EEE4",
+        faqColor: "#d7e5ea",
       },
       gradientColorStops: {
         primaryBlueStart: "#7eb1cd", //our main blue but lighter
