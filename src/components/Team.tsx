@@ -16,7 +16,7 @@ const Team: React.FC = () => {
         <h1 className="flex justify-center mb-5 bg-gradient-to-b from-primaryBlueStart to-primaryBlueEnd z-20 bg-clip-text text-center text-5xl py-2 text-transparent font-bold lg:text-7xl">
           Meet Our Team
         </h1>
-        <div className="flex justify-center items-center md:gap-8 gap-5 flex-wrap">
+        <div className="flex justify-center items-center xl:gap-8 gap-4 flex-wrap">
           {members.map((member: TeamMember, index: number) => (
             <TeamPic
               key={index}

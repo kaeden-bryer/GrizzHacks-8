@@ -13,7 +13,7 @@ const TeamPic: React.FC<TeamPicProps> = ({ source, linkedIn, name, title }) => {
   return (
     <>
       <div className="flex flex-col justify-center gap-4 relative z-10">
-        <div className="bg-yellow absolute top-0 -z-20 w-64 h-72 rounded-xl"></div>
+        <div className="bg-gradient-to-b from-primaryBlueStart to-primaryBlueEnd opacity-75 absolute top-0 -z-20 w-52 h-52 xl:w-64 xl:h-72 rounded-xl"></div>
         <a
           href={linkedIn}
           target="_blank"
