@@ -28,7 +28,7 @@ const Tracks = () => {
           className="overflow-hidden absolute hidden md:block md:left-[35%] md:top-[30%] z-[-10]"
         />
 
-        <div className="grid lg:grid-cols-2 gap-4 mt-[8rem]">
+        <div className="grid lg:grid-cols-2 gap-4 mt-[8rem] mx-2">
           <TrackCard
             title={"Automotive"}
             description={

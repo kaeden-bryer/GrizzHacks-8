@@ -11,6 +11,7 @@ export default {
       colors: {
         light: "#f6f6e9",
         primary: "#3d81a8", //our main blue
+        primaryLight: "#4b94be", //our main blue but lighter
         secondary: "#a89a64",
         heading: "#f8e894",
         yellow: "#fff4c3",
@@ -20,10 +21,11 @@ export default {
         blackColor: "#272727",
         navWhite: "#FFFDF9",
         bgblue: "#d9f0f8",
+        natural: "#F1EEE4",
       },
       gradientColorStops: {
         primaryBlueStart: "#7eb1cd", //our main blue but lighter
-        primaryBlueEnd: "#3d81a8",
+        primaryBlueEnd: "#3d81a8", //our main blue
         primaryBlueDark: "#254f66",
         blackStart: "#4b4b4b",
         blackEnd: "#272727",
