@@ -18,9 +18,9 @@ const Hero = () => {
         />
         {/* mobile pic */}
         <img
-          src="/mobile-pondbg.svg"
+          src="mobile-pondbg.svg"
           alt="Pond hero background"
-          className="w-screen absolute inset-0 min-h-screen -z-30 md:hidden overflow-hidden"
+          className="w-full absolute object-cover inset-0 min-h-screen -z-30 md:hidden overflow-hidden"
         />
 
         {/* main content section */}
