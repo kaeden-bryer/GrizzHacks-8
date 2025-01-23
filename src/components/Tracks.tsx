@@ -17,7 +17,7 @@ const Tracks = () => {
         />
         <img
           src="/duckprint1.svg"
-          className="absolute lg:scale-[100%] scale-[75%] -right-[8rem] overflow-hidden md:-right-[14rem] -top-10 z-[-10]"
+          className="absolute lg:scale-[90%] scale-[75%] -right-[5rem] overflow-hidden md:-right-[7rem] lg:-right-[6.5rem] xl:-right-[6rem] 2xl:-right-[16rem] top-0 lg:-top-4 z-[-10]"
         />
         <img
           src="/duckprint2.svg"
@@ -25,7 +25,7 @@ const Tracks = () => {
         />
         <img
           src="/duckprint2.svg"
-          className="overflow-hidden absolute hidden md:block md:left-[35%] md:top-[30%] z-[-10]"
+          className="overflow-hidden absolute hidden lg:block md:left-[35%] md:top-[30%] z-[-10]"
         />
 
         <div className="grid lg:grid-cols-2 gap-4 mt-[8rem] mx-2">
