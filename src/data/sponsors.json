@@ -34,5 +34,11 @@
     "logo": "/sponsor_logos/github-logo.svg",
     "tier": "bronze",
     "link": "https://github.com/"
+  },
+  {
+    "name": "365 Retail Markets",
+    "logo": "/sponsor_logos/365.svg",
+    "tier": "silver",
+    "link": "https://365retailmarkets.com/"
   }
 ]

@@ -46,14 +46,14 @@ const SponsorGrid = () => {
           />
         </a>
 
-        {/* People.Health. Silver */}
+        {/* 365 Retail Markets. Silver */}
         <a
-          href={sponsors[2].link}
+          href={sponsors[6].link}
           className="p-6 col-span-2 row-span-1 ring-2 ring-blackColor flex items-center justify-center rounded-md from-[#C0C0C0]/30 via-[#C0C0C0]/70 to-[#C0C0C0]/30 bg-gradient-to-bl"
         >
           <img
-            src={`${sponsors[2].logo}`}
-            alt={`${sponsors[2].name} Logo`}
+            src={`${sponsors[6].logo}`}
+            alt={`${sponsors[6].name} Logo`}
             className="absolute w-80"
           />
         </a>
