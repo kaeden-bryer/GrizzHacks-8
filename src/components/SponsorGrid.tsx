@@ -199,11 +199,11 @@ const SponsorGrid = () => {
           href="mailto:grizzhacksou@gmail.com"
           className=" text-blackColor bg-bgblue flex flex-col items-center p-6 col-span-2 row-span-1 ring-2 ring-primary rounded-md hover:bg-gradient-to-bl hover:from-primaryBlueEnd/90 hover:via-primaryBlueStart/50 hover:to-primaryBlueEnd/90"
         >
-          <h2 className="text-xl lg:text-2xl 2xl:text-3xl font-semibold">
+          <h2 className="text-xl md:text-xl lg:text-2xl  font-semibold">
             Thank you for making GrizzHacks 7 happen! We couldn't do it without
             your support.
           </h2>
-          <h3 className="text-lg lg:text-xl 2xl:text-2xl font-base mt-4">
+          <h3 className="text-lg md:text-lg lg:text-xl  font-base mt-4">
             Looking to sponsor?{" "}
             <span className="underline underline-offset-4 decoration-blackColor hover:decoration-faqColor decoration-2">
               Contact us for more details!

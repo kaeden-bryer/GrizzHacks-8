@@ -28,22 +28,21 @@ const AboutNew = () => {
             <div className="flex gap-2 flex-col">
               <div className="flex flex-col my-2">
                 <h4 className="text-xl lg:text-2xl 2xl:text-3xl font-semibold">
-                  A{" "}
+                  We're back at OU with a{" "}
                   <i className="underline decoration-yellow decoration-2 underline-offset-4">
                     quackathon{" "}
                   </i>
-                  is coming to Oakland!
+                  !
                 </h4>
-                <p className="2xl:text-lg mt-2">
-                  We're back at OU with a Quackathon! GrizzHacks is a 24 hour
-                  engineering marathon, welcome to all students. Whether you're
-                  a seasoned developer building a new idea, a beginner looking
-                  to sharpen your skills, or simply a tech lover, we have
-                  something for you!
+                <p className="lg:text-lg mt-2">
+                  GrizzHacks is a 24 hour engineering marathon, welcome to all
+                  students. Whether you're a seasoned developer building a new
+                  idea, a beginner looking to sharpen your skills, or simply a
+                  tech lover, we have something for you!
                 </p>
               </div>
               <div className="flex flex-col my-2">
-                <p className="2xl:text-lg">
+                <p className="lg:text-lg">
                   Over the course of 24 hours, each team will develop a project
                   from the ground up and then present their work to a panel of
                   judges to compete for prizes! You're allowed to create
@@ -59,7 +58,7 @@ const AboutNew = () => {
                 </p>
               </div>
             </div>
-            <p className="2xl:text-lg mt-2">
+            <p className="lg:text-lg mt-2">
               Still have questions? Check out our{" "}
               <a
                 href="/#faq"

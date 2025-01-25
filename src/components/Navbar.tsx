@@ -25,7 +25,7 @@ const Navbar: React.FC = () => {
 
       {/* Nav Bar */}
       <nav className="top-10 z-10 w-full h-[5rem] text-blackColor bg-navWhite rounded-lg flex justify-between items-center md:px-10 sm:px-5 py-3 mb-4 sm:mt-6 mt-4 px-4">
-        <a href="#home">
+        <a href="#team">
           <img
             src="/images/logo.svg"
             alt="Grizzhacks"
@@ -74,8 +74,9 @@ const Navbar: React.FC = () => {
           </a>
           */}
           <a
-            href="TYPEFORM LINK"
-            className="font-semibold hover:bg-primaryHover hover:text-white w-fit relative ring-2 ring-primaryHover rounded-3xl py-2 px-4"
+            href="https://form.typeform.com/to/ozOq06mS"
+            target="_blank"
+            className="font-semibold hover:bg-primaryHover hover:text-white transition duration-300 ease-in-out w-fit relative ring-2 ring-primaryHover rounded-3xl py-2 px-4"
           >
             Register
           </a>
