@@ -46,10 +46,11 @@ const AboutNew = () => {
                   judges to compete for prizes! You&apos;re allowed to create
                   anything you can think of, but if you need some inspiration,
                   check out our{" "}
-                  <Link href="#tracks">
-                    <a className="text-primary underline underline-offset-2 decoration-yellow hover:underline-offset-4 transition-all z-50">
-                      tracks
-                    </a>
+                  <Link 
+                    href="#tracks"
+                    className="text-primary underline underline-offset-2 decoration-yellow hover:underline-offset-4 transition-all z-50"
+                  >
+                    tracks
                   </Link>{" "}
                   this year.
                 </p>
@@ -57,10 +58,8 @@ const AboutNew = () => {
             </div>
             <p className="lg:text-lg mt-2">
               Still have questions? Check out our{" "}
-              <Link href="/#faq">
-                <a className="text-primary underline underline-offset-2 decoration-yellow hover:underline-offset-4 transition-all">
-                  FAQ
-                </a>
+              <Link href="#faq" className="text-primary underline underline-offset-2 decoration-yellow hover:underline-offset-4 transition-all">
+                FAQ
               </Link>
               .
             </p>
