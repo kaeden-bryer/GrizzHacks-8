@@ -92,7 +92,7 @@ const Hero = () => {
           </div>
           <div className="flex flex-col gap-1 items-center">
             <a
-              href="TYPEFORM LINK"
+              href="https://form.typeform.com/to/ozOq06mS"
               className="flex items-center justify-center p-3 px-5 text-2xl lg:text-3xl 2xl:text-3xl rounded-xl bg-primary hover:bg-primaryHover w-fit text-white font-semibold relative ring-2 ring-primaryHover"
               style={{ fontFamily: "'Montserrat', sans-serif" }}
             >
