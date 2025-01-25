@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Head from "next/head"; // Import the Head component
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -13,10 +14,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      </head>
-      <body className={`antialiased`}>{children}</body>
+      <body className={`antialiased`}>
+        <Head>
+          <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no"
+          />
+        </Head>
+        {children}
+      </body>
     </html>
   );
 }

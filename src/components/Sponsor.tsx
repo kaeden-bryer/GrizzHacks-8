@@ -4,17 +4,21 @@ import SponsorGrid from "./SponsorGrid";
 const Sponsor = () => {
   return (
     <>
-      <section id="sponsors" className="containerr my-16 relative">
+      <section id="sponsors" className="containerr relative">
         <h1 className="flex justify-center bg-gradient-to-b from-primaryBlueStart to-primaryBlueEnd z-20 bg-clip-text text-center text-5xl py-2 text-transparent font-bold lg:text-7xl">
           Sponsors
         </h1>
-        <div className="relative z-10">
-          <img
-            src="/sponsor-duck.svg"
-            className="absolute -right-[13rem] md:-right-[12rem] lg:-right-[10rem] scale-[15%] md:scale-[20%] lg:scale-[25%] -top-[17rem] md:-top-[18rem] lg:-top-[19rem] xl:-top-[16rem] object-cover"
-          />
+        <div className="md:-mt-16 -mt-12 flex flex-col justify-end items-end relative">
+          <div className="flex justify-end w-full max-w-40 max-h-64 overflow-hidden">
+            <img
+              src="/sponsor-duck.svg"
+              className="mr-4 w-2/5 h-auto md:w-1/2 md:h-auto lg:w-2/3 lg:h-auto object-cover"
+            />
+          </div>
+          <div className="w-full">
+            <SponsorGrid />
+          </div>
         </div>
-        <SponsorGrid />
       </section>
     </>
   );

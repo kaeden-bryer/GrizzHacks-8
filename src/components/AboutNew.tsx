@@ -25,14 +25,14 @@ const AboutNew = () => {
           <div className="flex flex-col lg:w-3/5 lg:m-0 justify-around">
             <div className="flex gap-2 flex-col">
               <div className="flex flex-col my-2">
-                <h4 className="text-xl lg:text-2xl 2xl:text-3xl font-semibold">
+                <h4 className="text-lg md:text-xl lg:text-2xl 2xl:text-3xl font-semibold">
                   We&apos;re back at OU with a{" "}
                   <i className="underline decoration-yellow decoration-2 underline-offset-4">
                     quackathon{" "}
                   </i>
                   !
                 </h4>
-                <p className="lg:text-lg mt-2">
+                <p className="lg:text-lg text-sm mt-2">
                   GrizzHacks is a 24 hour engineering marathon, welcome to all
                   students. Whether you&apos;re a seasoned developer building a
                   new idea, a beginner looking to sharpen your skills, or simply
@@ -40,7 +40,7 @@ const AboutNew = () => {
                 </p>
               </div>
               <div className="flex flex-col my-2">
-                <p className="lg:text-lg">
+                <p className="lg:text-lg text-sm">
                   Over the course of 24 hours, each team will develop a project
                   from the ground up and then present their work to a panel of
                   judges to compete for prizes! You&apos;re allowed to create
@@ -56,7 +56,7 @@ const AboutNew = () => {
                 </p>
               </div>
             </div>
-            <p className="lg:text-lg mt-2">
+            <p className="lg:text-lg text-smmt-2">
               Still have questions? Check out our{" "}
               <Link
                 href="#faq"
@@ -70,7 +70,7 @@ const AboutNew = () => {
           <div className="w-full lg:w-1/3 relative flex items-center justify-center">
             <img
               src="/images/IMG_7684-S.webp"
-              className="rounded-xl lg:mt-0 mt-6 md:mt-8 w-[40%] lg:w-[75%] h-auto object-cover z-10"
+              className="rounded-xl lg:mt-0 mt-6 md:mt-8 w-[88%] md:w-[40%] lg:w-[75%] h-auto object-cover z-10"
               alt="Top down view of GrizzHacks"
             />
             <div className="inset-0 absolute rounded-lg">
@@ -92,20 +92,20 @@ const AboutNew = () => {
               Last Year We Had...
             </h2>
           </div>
-          <div className="flex flex-row gap-4 lg:gap-6 xl:gap-10 text-white">
-            <div className="flex flex-col gap-3 xl:gap-4 px-4 bg-blackColor lg:p-7 p-3 rounded-lg items-center justify-center md:w-[22%] lg:w-[20%]">
+          <div className="flex flex-wrap gap-4 lg:gap-6 xl:gap-10 text-white justify-center">
+            <div className="flex flex-col gap-3 xl:gap-4 px-4 bg-blackColor lg:p-7 p-3 rounded-lg items-center justify-center w-[42%] md:w-[22%] lg:w-[20%]">
               <h1 className="font-bold text-5xl xl:text-6xl">130+</h1>
               <p className="xl:text-2xl lg:text-xl text-lg">Hackers</p>
             </div>
-            <div className="flex flex-col gap-2 lg:gap-3 xl:gap-4 px-4 bg-blackColor lg:p-7 p-3 rounded-lg items-center justify-center md:w-[22%] lg:w-[20%]">
+            <div className="flex flex-col gap-2 lg:gap-3 xl:gap-4 px-4 bg-blackColor lg:p-7 p-3 rounded-lg items-center justify-center w-[42%] md:w-[22%] lg:w-[20%]">
               <h1 className="font-bold text-5xl xl:text-6xl">15+</h1>
               <p className="xl:text-2xl lg:text-xl text-lg">Universities</p>
             </div>
-            <div className="flex flex-col gap-3 xl:gap-4 px-4 bg-blackColor lg:p-7 p-3 rounded-lg items-center justify-center md:w-[22%] lg:w-[20%]">
+            <div className="flex flex-col gap-3 xl:gap-4 px-4 bg-blackColor lg:p-7 p-3 rounded-lg items-center justify-center w-[42%] md:w-[22%] lg:w-[20%]">
               <h1 className="font-bold text-5xl xl:text-6xl">35+</h1>
               <p className="xl:text-2xl lg:text-xl text-lg">Projects</p>
             </div>
-            <div className="flex flex-col gap-3 xl:gap-4 px-4 bg-blackColor lg:p-7 p-3 rounded-lg items-center justify-center md:w-[22%] lg:w-[20%]">
+            <div className="flex flex-col gap-3 xl:gap-4 px-4 bg-blackColor lg:p-7 p-3 rounded-lg items-center justify-center w-[42%] md:w-[22%] lg:w-[20%]">
               <h1 className="font-bold text-5xl xl:text-6xl">$7k+</h1>
               <p className="xl:text-2xl lg:text-xl text-lg">Prizes</p>
             </div>
