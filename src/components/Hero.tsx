@@ -2,8 +2,8 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div>
-      <section className="min-w-screen min-h-screen relative">
+    <>
+      <section className="min-w-screen min-h-screen relative flex items-center justify-center">
         {/* desktop LARGE pic */}
         <img
           src="/cloudbg.png"
@@ -107,16 +107,16 @@ const Hero = () => {
               Join the Quackathon
             </p>
           </div>
-          <div className="flex items-center justify-center">
+          <div className="flex items-center justify-center mt-8">
             <img
               src="/pondimg.png"
               alt="pond cartoon"
-              className="scale-[75%]"
+              className="scale-[90%]"
             />
           </div>
         </section>
       </section>
-    </div>
+    </>
   );
 };
 
