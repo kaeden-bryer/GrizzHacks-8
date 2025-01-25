@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import DOMPurify from "dompurify"; //recommended security
 
 interface FaqElementProps {
@@ -16,11 +16,18 @@ const FaqElement: React.FC<FaqElementProps> = ({
   show,
   onToggle,
 }) => {
-  if (!show) {
+  const [sanitizedAnswer, setSanitizedAnswer] = useState<string | null>(null);
+
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      // This ensures that DOMPurify runs only on the client side
+      setSanitizedAnswer(DOMPurify.sanitize(answer));
+    }
+  }, [answer]);
+
+  if (!show || sanitizedAnswer === null) {
     return null;
   }
-
-  const sanitizedAnswer = DOMPurify.sanitize(answer);
 
   return (
     <>

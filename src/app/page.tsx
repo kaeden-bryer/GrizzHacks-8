@@ -1,6 +1,3 @@
-//import About from "@/components/about";
-import Landing from "@/components/landing";
-import Image from "next/image";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 import AboutNew from "@/components/AboutNew";
@@ -8,10 +5,7 @@ import Tracks from "@/components/Tracks";
 import Sponsor from "@/components/Sponsor";
 import FaQ from "@/components/FaQ";
 import Footer from "@/components/Footer";
-import Team from "@/components/Team";
 import FlexPic from "@/components/FlexPic";
-
-import { useEffect } from "react";
 
 export default function Home() {
   return (

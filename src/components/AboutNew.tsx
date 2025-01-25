@@ -2,20 +2,18 @@
 
 import React from "react";
 import { useState, useEffect } from "react";
+import Link from "next/link";
 
 const AboutNew = () => {
-  const [windowWidth, setWindowWidth] = useState(0);
+  const [isClient, setIsClient] = useState(false);
 
   useEffect(() => {
-    setWindowWidth(window.innerWidth);
-
-    const handleResize = () => {
-      setWindowWidth(window.innerWidth);
-    };
-
-    window.addEventListener("resize", handleResize);
-    return () => window.removeEventListener("resize", handleResize);
+    setIsClient(true);
   }, []);
+
+  if (!isClient) {
+    return null;
+  }
 
   return (
     <>
@@ -28,7 +26,7 @@ const AboutNew = () => {
             <div className="flex gap-2 flex-col">
               <div className="flex flex-col my-2">
                 <h4 className="text-xl lg:text-2xl 2xl:text-3xl font-semibold">
-                  We're back at OU with a{" "}
+                  We&apos;re back at OU with a{" "}
                   <i className="underline decoration-yellow decoration-2 underline-offset-4">
                     quackathon{" "}
                   </i>
@@ -36,36 +34,34 @@ const AboutNew = () => {
                 </h4>
                 <p className="lg:text-lg mt-2">
                   GrizzHacks is a 24 hour engineering marathon, welcome to all
-                  students. Whether you're a seasoned developer building a new
-                  idea, a beginner looking to sharpen your skills, or simply a
-                  tech lover, we have something for you!
+                  students. Whether you&apos;re a seasoned developer building a
+                  new idea, a beginner looking to sharpen your skills, or simply
+                  a tech lover, we have something for you!
                 </p>
               </div>
               <div className="flex flex-col my-2">
                 <p className="lg:text-lg">
                   Over the course of 24 hours, each team will develop a project
                   from the ground up and then present their work to a panel of
-                  judges to compete for prizes! You're allowed to create
+                  judges to compete for prizes! You&apos;re allowed to create
                   anything you can think of, but if you need some inspiration,
                   check out our{" "}
-                  <a
-                    href="#tracks"
-                    className="text-primary underline underline-offset-2 decoration-yellow hover:underline-offset-4 transition-all z-50"
-                  >
-                    tracks
-                  </a>{" "}
+                  <Link href="#tracks">
+                    <a className="text-primary underline underline-offset-2 decoration-yellow hover:underline-offset-4 transition-all z-50">
+                      tracks
+                    </a>
+                  </Link>{" "}
                   this year.
                 </p>
               </div>
             </div>
             <p className="lg:text-lg mt-2">
               Still have questions? Check out our{" "}
-              <a
-                href="/#faq"
-                className="text-primary underline underline-offset-2 decoration-yellow hover:underline-offset-4 transition-all"
-              >
-                FAQ
-              </a>
+              <Link href="/#faq">
+                <a className="text-primary underline underline-offset-2 decoration-yellow hover:underline-offset-4 transition-all">
+                  FAQ
+                </a>
+              </Link>
               .
             </p>
           </div>
@@ -82,6 +78,7 @@ const AboutNew = () => {
                     ? "/yellowblob.svg"
                     : "/yellowblob2.svg"
                 }
+                alt="yellow background"
                 className="absolute z-0 scale-[80%] md:scale-[90%] lg:scale-150 w-auto h-auto top-[60%] lg:top-1/2 left-1/2 -translate-x-[50%] lg:-translate-x-[53%] -translate-y-[52%] lg:-translate-y-1/2"
               />
             </div>

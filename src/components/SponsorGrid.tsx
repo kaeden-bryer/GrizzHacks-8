@@ -1,5 +1,4 @@
 import React from "react";
-import SponsorCard from "./SponsorCard";
 import sponsors from "../data/sponsors.json";
 
 const SponsorGrid = () => {
@@ -81,15 +80,15 @@ const SponsorGrid = () => {
 
         {/* Thank you message */}
         {/* A huge thank you to our amazing sponsors! Your support means the
-            world to us and helps make everything we do possible. We couldn’t do
+            world to us and helps make everything we do possible. We couldnt do
             it without you—thanks for being part of our journey!*/}
         <a
           href="mailto:grizzhacksou@gmail.com"
           className="h-full text-blackColor bg-offWhite flex flex-col justify-center p-6 col-span-3 row-span-1 ring-2 ring-primary rounded-md hover:bg-gradient-to-bl hover:from-primaryBlueEnd/90 hover:via-primaryBlueStart/50 hover:to-primaryBlueEnd/90"
         >
           <h2 className="text-center text-lg lg:text-xl 2xl:text-2xl font-semibold">
-            Thank you for being a part of our journey. We couldn't do it without
-            you!
+            Thank you for being a part of our journey. We couldn&apos;t do it
+            without you!
           </h2>
           <h3 className="text-center text-lg lg:text-xl 2xl:text-xl font-base mt-4">
             Looking to sponsor? Email us at{" "}
@@ -216,8 +215,8 @@ const SponsorGrid = () => {
           className=" text-blackColor bg-offWhite flex flex-col p-6 col-span-4 row-span-1 ring-2 ring-primary rounded-md hover:bg-gradient-to-bl hover:from-primaryBlueEnd/90 hover:via-primaryBlueStart/50 hover:to-primaryBlueEnd/90"
         >
           <h2 className="text-xl md:text-xl lg:text-2xl  font-semibold">
-            Thank you for being a part of our journey. We couldn't do it without
-            you!
+            Thank you for being a part of our journey. We couldn&apos;t do it
+            without you!
           </h2>
           <h3 className="text-lg md:text-lg lg:text-xl font-base mt-2 text-left">
             Looking to sponsor? Email us at{" "}

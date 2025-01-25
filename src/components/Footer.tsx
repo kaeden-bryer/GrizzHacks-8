@@ -1,12 +1,15 @@
 import React from "react";
+import Link from "next/link";
 
 const Footer = () => {
   return (
     <>
       <div className="flex justify-between py-3 mt-5 items-center containerr px-10 bg-navWhite text-blackColor mt-24">
-        <a href="/" className="md:text-2xl text-lg">
-          &copy; GrizzHacks {new Date().getFullYear()}
-        </a>
+        <Link href="/">
+          <a className="md:text-2xl text-lg">
+            &copy; GrizzHacks {new Date().getFullYear()}
+          </a>
+        </Link>
         <a
           href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf"
           target="_blank"

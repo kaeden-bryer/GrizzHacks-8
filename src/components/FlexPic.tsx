@@ -1,5 +1,4 @@
-"use client";
-import React, { useState } from "react";
+import React from "react";
 // Import your JSON file
 import teamData from "../data/team.json"; // Update with the actual path
 
