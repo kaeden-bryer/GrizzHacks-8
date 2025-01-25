@@ -1,4 +1,4 @@
-import About from "@/components/about";
+//import About from "@/components/about";
 import Landing from "@/components/landing";
 import Image from "next/image";
 import Hero from "@/components/Hero";
@@ -35,6 +35,7 @@ export default function Home() {
         </div>
       </div>
       <Footer />
+      {/*<About />*/}
     </div>
   );
 }
