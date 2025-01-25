@@ -18,7 +18,7 @@ export default function Home() {
         <div className="mx-4 md:mx-md lg:mx-lg 2xl:mx-2xl">
           <Navbar />
         </div>
-        <div className="flex flex-col gap-16 ">
+        <div className="flex flex-col gap-24 ">
           <Hero />
           <div className="mx-4 md:mx-md lg:mx-lg 2xl:mx-2xl">
             <AboutNew />

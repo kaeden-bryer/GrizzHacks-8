@@ -4,19 +4,19 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <>
-      <div className="flex justify-between py-3 mt-5 items-center containerr px-10 bg-navWhite text-blackColor mt-24">
-        <Link href="/" className="md:text-2xl text-lg">
-          &copy; GrizzHacks {new Date().getFullYear()}
+      <div className="flex justify-between py-3 mt-5 items-center containerr px-2 bg-navWhite text-blackColor mt-24">
+        <Link href="/" className="md:text-lg xl:text-xl text-sm">
+          &copy;GrizzHacks {new Date().getFullYear()}
         </Link>
         <a
           href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf"
           target="_blank"
         >
-          <h2 className="underline underline-offset-2 hover:underline-offset-4">
+          <h2 className="underline text-xs md:text-base underline-offset-2 hover:underline-offset-4">
             MLH Code of Conduct
           </h2>
         </a>
-        <div className="flex gap-2 items-center">
+        <div className="flex gap-1 md:gap-2 items-center">
           <a target="_blank" href="mailto:grizzhacksou@gmail.com">
             <img className="w-6 md:w-10" src="/email-dark.svg" alt="" />
           </a>

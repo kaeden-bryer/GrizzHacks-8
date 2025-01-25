@@ -73,21 +73,21 @@ const Hero = () => {
         {/*smaller screens, center align */}
         {/* NEED TO FIX */}
         <section className="md:hidden w-full">
-          <div className="flex flex-col mt-16 items-center">
-            <h1 className="text-7xl font-bold bg-gradient-to-b from-blackStart to-blackEnd bg-clip-text text-transparent">
+          <div className="flex flex-col items-center justify-center">
+            <h1 className="text-6xl font-bold bg-gradient-to-b from-blackStart to-blackEnd bg-clip-text text-transparent">
               GrizzHacks 7
             </h1>
           </div>
           <div className="flex flex-row gap-6 mb-8 mt-4 items-center justify-center">
             <div className="flex gap-1 items-center">
               <img className="w-6" src="/date.svg" alt="" />
-              <p className="text-2xl lg:text-3xl 2xl:text-4xl font-semibold text-blackColor">
+              <p className="text-lg  font-semibold text-blackColor">
                 March 22nd-23rd
               </p>
             </div>
             <div className="flex gap-0 items-center">
               <img className="w-6" src="/pin.svg" alt="" />
-              <p className="text-2xl lg:text-3xl 2xl:text-4xl font-semibold text-blackColor">
+              <p className="text-lg font-semibold text-blackColor">
                 Oakland University
               </p>
             </div>
