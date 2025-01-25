@@ -32,7 +32,6 @@ export default function Home() {
           <Sponsor />
           <FaQ />
           <FlexPic />
-          {/*<Team />*/}
         </div>
       </div>
       <Footer />
