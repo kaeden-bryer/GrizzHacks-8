@@ -17,7 +17,7 @@ const AboutNew = () => {
 
   return (
     <>
-      <div id="about" className="containerr p-2 my-10">
+      <div id="about" className="containerr p-2">
         <h1 className="flex justify-center mb-5 bg-gradient-to-b from-primaryBlueStart to-primaryBlueEnd z-20 bg-clip-text text-center text-5xl py-2 text-transparent font-bold lg:text-7xl">
           About
         </h1>
@@ -46,7 +46,7 @@ const AboutNew = () => {
                   judges to compete for prizes! You&apos;re allowed to create
                   anything you can think of, but if you need some inspiration,
                   check out our{" "}
-                  <Link 
+                  <Link
                     href="#tracks"
                     className="text-primary underline underline-offset-2 decoration-yellow hover:underline-offset-4 transition-all z-50"
                   >
@@ -58,7 +58,10 @@ const AboutNew = () => {
             </div>
             <p className="lg:text-lg mt-2">
               Still have questions? Check out our{" "}
-              <Link href="#faq" className="text-primary underline underline-offset-2 decoration-yellow hover:underline-offset-4 transition-all">
+              <Link
+                href="#faq"
+                className="text-primary underline underline-offset-2 decoration-yellow hover:underline-offset-4 transition-all"
+              >
                 FAQ
               </Link>
               .
