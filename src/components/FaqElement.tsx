@@ -34,7 +34,7 @@ const FaqElement: React.FC<FaqElementProps> = ({
 
         <div
           className={`rounded-md text-blackColor ring-1 ring-primary ${
-            active ? "bg-faqColor" : "bg-navWhite"
+            active ? "bg-faqColor" : "bg-offWhite"
           } hover:bg-faqColor flex flex-col justify-start p-3`}
         >
           {/* Clickable Header */}

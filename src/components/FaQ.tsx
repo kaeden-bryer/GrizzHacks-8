@@ -27,7 +27,7 @@ const FaQ: React.FC = () => {
         />
 
         {/* DESKTOP */}
-        <div className="hidden justify-center gap-1 lg:flex">
+        <div className="hidden justify-center gap-1 lg:flex mb-32">
           {/* left column */}
           <div className="flex flex-col w-1/2 mt-1 gap-1">
             {faqData.map((question, index) =>

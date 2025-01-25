@@ -9,6 +9,7 @@ import Sponsor from "@/components/Sponsor";
 import FaQ from "@/components/FaQ";
 import Footer from "@/components/Footer";
 import Team from "@/components/Team";
+import FlexPic from "@/components/FlexPic";
 
 import { useEffect } from "react";
 
@@ -30,7 +31,8 @@ export default function Home() {
           <Tracks />
           <Sponsor />
           <FaQ />
-          <Team />
+          <FlexPic />
+          {/*<Team />*/}
         </div>
       </div>
       <Footer />
