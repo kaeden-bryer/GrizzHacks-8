@@ -10,22 +10,31 @@ import FlexPic from "@/components/FlexPic";
 export default function Home() {
   return (
     <div className="absolute bg-bgblue min-h-screen z-[-50]">
-      <div
-        className="mx-4 md:mx-md lg:mx-lg 2xl:mx-2xl text-blackColor flex flex-col"
-        id="home"
-      >
+      <div className="text-blackColor flex flex-col overflow-hidden" id="home">
         {/*bg-gradient-to-b from-bgblue to-bgbrown
       <Landing />
       <About />
       */}
-        <Navbar />
-        <Hero />
-        <div className="flex flex-col gap-16 -mt-20 md:-mt-8 lg:mt-0">
-          <AboutNew />
-          <Tracks />
-          <Sponsor />
-          <FaQ />
-          <FlexPic />
+        <div className="mx-4 md:mx-md lg:mx-lg 2xl:mx-2xl">
+          <Navbar />
+        </div>
+        <div className="flex flex-col gap-16 ">
+          <Hero />
+          <div className="mx-4 md:mx-md lg:mx-lg 2xl:mx-2xl">
+            <AboutNew />
+          </div>
+          <div className="mx-4 md:mx-md lg:mx-lg 2xl:mx-2xl">
+            <Tracks />
+          </div>
+          <div className="mx-4 md:mx-md lg:mx-lg 2xl:mx-2xl">
+            <Sponsor />
+          </div>
+          <div className="mx-4 md:mx-md lg:mx-lg 2xl:mx-2xl">
+            <FaQ />
+          </div>
+          <div className="mx-4 md:mx-md lg:mx-lg 2xl:mx-2xl">
+            <FlexPic />
+          </div>
         </div>
       </div>
       <Footer />

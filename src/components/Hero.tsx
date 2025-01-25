@@ -3,24 +3,18 @@ import React from "react";
 const Hero = () => {
   return (
     <div>
-      <section className="w-full containerr min-h-screen">
+      <section className="min-w-screen min-h-screen relative">
         {/* desktop LARGE pic */}
         <img
-          src="/web-pondbg.svg"
-          alt="Pond hero background"
-          className="w-full object-cover min-h-screen absolute inset-0 -z-30 hidden xl:block overflow-hidden"
+          src="/cloudbg.png"
+          alt="clouds"
+          className="w-full object-cover absolute inset-0 md:-top-12 lg:-top-24 xl:-top-48 -z-30 hidden md:block"
         />
-        {/* desktop regular pic */}
+
         <img
-          src="/web-pondbg.svg"
-          alt="Pond hero background"
-          className="w-full object-cover md:block hidden xl:hidden min-h-screen absolute inset-0 -z-30 overflow-hidden"
-        />
-        {/* mobile pic */}
-        <img
-          src="mobile-pondbg.svg"
-          alt="Pond hero background"
-          className="w-full absolute object-cover inset-0 min-h-screen -z-30 md:hidden overflow-hidden"
+          src="/cloudsmbg.png"
+          alt="clouds"
+          className="w-full object-cover absolute inset-0 -top-48 -z-30 block md:hidden"
         />
 
         {/* main content section */}
@@ -67,24 +61,32 @@ const Hero = () => {
               Join the Quackathon
             </p>
           </div>
+          <div className="flex items-center justify-center -mt-24">
+            <img
+              src="/pondimg.png"
+              alt="pond cartoon"
+              className="scale-[75%]"
+            />
+          </div>
         </section>
+
         {/*smaller screens, center align */}
         {/* NEED TO FIX */}
-        <section className="md:hidden">
-          <div className="flex flex-col mt-32 items-center">
+        <section className="md:hidden w-full">
+          <div className="flex flex-col mt-16 items-center">
             <h1 className="text-7xl font-bold bg-gradient-to-b from-blackStart to-blackEnd bg-clip-text text-transparent">
-              GrizzHacks7
+              GrizzHacks 7
             </h1>
           </div>
-          <div className="flex flex-col gap-3 mb-10 mt-6 items-center">
-            <div className="flex gap-2 items-center">
-              <img className="w-8" src="/date.svg" alt="" />
+          <div className="flex flex-row gap-6 mb-8 mt-4 items-center justify-center">
+            <div className="flex gap-1 items-center">
+              <img className="w-6" src="/date.svg" alt="" />
               <p className="text-2xl lg:text-3xl 2xl:text-4xl font-semibold text-blackColor">
                 March 22nd-23rd
               </p>
             </div>
-            <div className="flex gap-1 items-center">
-              <img className="w-8" src="/pin.svg" alt="" />
+            <div className="flex gap-0 items-center">
+              <img className="w-6" src="/pin.svg" alt="" />
               <p className="text-2xl lg:text-3xl 2xl:text-4xl font-semibold text-blackColor">
                 Oakland University
               </p>
@@ -104,6 +106,13 @@ const Hero = () => {
             >
               Join the Quackathon
             </p>
+          </div>
+          <div className="flex items-center justify-center">
+            <img
+              src="/pondimg.png"
+              alt="pond cartoon"
+              className="scale-[75%]"
+            />
           </div>
         </section>
       </section>
