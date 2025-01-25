@@ -1,0 +1,44 @@
+[
+  {
+    "name": "MLH",
+    "logo": "/sponsor_logos/mlh.svg",
+    "tier": "bronze",
+    "link": "https://mlh.io/"
+  },
+  {
+    "name": "Oakland University Credit Union",
+    "logo": "/sponsor_logos/oucu.svg",
+    "tier": "gold",
+    "link": "https://www.oucreditunion.org/"
+  },
+  {
+    "name": "People.Health",
+    "logo": "/sponsor_logos/people-health.svg",
+    "tier": "silver",
+    "link": "https://people.health/"
+  },
+  {
+    "name": "CyberOU",
+    "logo": "/sponsor_logos/cyber.svg",
+    "tier": "bronze",
+    "link": "https://cyberou.github.io/cyberou-website/"
+  },
+  {
+    "name": "StandOutSticker",
+    "logo": "/sponsor_logos/stand-out-stickers.png",
+    "tier": "bronze",
+    "link": "https://www.standoutstickers.com/"
+  },
+  {
+    "name": "GitHub",
+    "logo": "/sponsor_logos/github-logo.svg",
+    "tier": "bronze",
+    "link": "https://github.com/"
+  },
+  {
+    "name": "365 Retail Markets",
+    "logo": "/sponsor_logos/365.svg",
+    "tier": "silver",
+    "link": "https://365retailmarkets.com/"
+  }
+]
