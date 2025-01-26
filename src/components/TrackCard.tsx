@@ -11,7 +11,7 @@ const TrackCard: React.FC<TrackCardProps> = ({ title, description, icon }) => {
     <div className="flex flex-col gap-2 lg:gap-4 px-4 bg-bgblue ring-4 ring-primary lg:p-5 p-3 rounded-2xl">
       <div className="flex flex-row items-center justify-center gap-4">
         <img src={icon} alt={`${title} track`} className="w-16" />
-        <h2 className="text-xl lg:text-2xl font-bold text-blackColor">
+        <h2 className="text-xl lg:text-2xl text-blackColor font-semibold">
           {title}
         </h2>
       </div>

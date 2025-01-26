@@ -110,7 +110,7 @@ const Navbar: React.FC = () => {
             <a
               key={item}
               href={`/#${item.toLowerCase()}`}
-              className="text-primary h-14 w-full flex items-center last:rounded-b-lg bg-navWhite hover:bg-yellow justify-center border-b-2 border-primary hover:border-primaryHover text-lg md:text-xl font-bold"
+              className="text-primary h-14 w-full flex items-center last:rounded-b-lg bg-navWhite hover:bg-yellow justify-center border-b-2 border-primary hover:border-primaryHover text-lg md:text-xl font-semibold"
               onClick={() => setBurgerClicked(false)}
             >
               <motion.div
