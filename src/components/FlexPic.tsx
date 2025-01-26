@@ -4,7 +4,7 @@ import teamData from "../data/team.json"; // Update with the actual path
 
 const FlexPic = () => {
   return (
-    <>
+    <div id="team">
       <h1 className="flex justify-center bg-gradient-to-b from-primaryBlueStart to-primaryBlueEnd z-20 bg-clip-text text-center text-5xl py-2 text-transparent font-bold lg:text-7xl">
         Meet Our Team
       </h1>
@@ -28,8 +28,8 @@ const FlexPic = () => {
                 className="absolute bottom-0 right-0 rounded-lg z-20 w-full h-full hover:bg-navWhite/10"
               >
                 <img
-                  src="/images/linkedin.svg"
-                  className="p-2 absolute z-20 scale-[50%] md:scale-[60%] -right-8 -bottom-8 md:-right-6 md:-bottom-6"
+                  src="/images/linkedin.png"
+                  className="p-2 absolute z-20 w-16 md:w-20 lg:w-24 h-auto -right-2 -bottom-2"
                 />
               </a>
             </div>
@@ -50,7 +50,7 @@ const FlexPic = () => {
           </div>
         ))}
       </div>
-    </>
+    </div>
   );
 };
 

@@ -46,7 +46,7 @@ const FaqElement: React.FC<FaqElementProps> = ({
         >
           {/* Clickable Header */}
           <div
-            className="flex justify-between cursor-pointer"
+            className="flex justify-between items-center cursor-pointer"
             onClick={onToggle}
             role="button"
             tabIndex={0}
@@ -57,7 +57,7 @@ const FaqElement: React.FC<FaqElementProps> = ({
             <img
               src="/faq-arrow.png"
               alt="Expand"
-              className={`w-5 transition-all duration-300 ${
+              className={`w-5 h-7 transition-all duration-300 ${
                 active ? "rotate-90" : ""
               }`}
             />

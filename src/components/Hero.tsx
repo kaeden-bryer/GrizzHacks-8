@@ -8,13 +8,13 @@ const Hero = () => {
         <img
           src="/cloudbg.png"
           alt="clouds"
-          className="w-full object-cover absolute inset-0 md:-top-12 lg:-top-24 xl:-top-48 -z-30 hidden md:block"
+          className="w-full object-cover absolute inset-0 md:-top-12 lg:-top-8 xl:-top-12 -z-30 hidden md:block"
         />
 
         <img
           src="/cloudsmbg.png"
           alt="clouds"
-          className="w-full object-cover absolute inset-0 -top-48 -z-30 block md:hidden"
+          className="w-full object-cover absolute inset-0 -top-36 -z-30 block md:hidden"
         />
 
         {/* main content section */}
