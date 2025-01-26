@@ -49,15 +49,11 @@ const Hero = () => {
             <a
               href="https://form.typeform.com/to/ozOq06mS"
               target="_blank"
-              className="flex items-center justify-center py-2 2xl:py-3 px-4 2xl:px-6 text-2xl lg:text-3xl rounded-2xl bg-primary hover:bg-primaryHover w-fit text-white font-semibold relative ring-2 ring-primaryHover"
-              style={{ fontFamily: "'Montserrat', sans-serif" }}
+              className="flex items-center justify-center py-2 2xl:py-3 px-4 2xl:px-6 text-2xl lg:text-3xl rounded-2xl bg-primary hover:bg-primaryHover w-fit text-white font-semibold font-montserrat relative ring-2 ring-primaryHover"
             >
               Register Now!
             </a>
-            <p
-              className="flex text-base 2xl:text-lg font-semibold text-blackColor"
-              style={{ fontFamily: "'Montserrat', sans-serif" }}
-            >
+            <p className="flex text-base 2xl:text-lg font-semibold text-blackColor">
               Join the Quackathon
             </p>
           </div>
@@ -78,7 +74,7 @@ const Hero = () => {
               GrizzHacks 7
             </h1>
           </div>
-          <div className="font-montserrat flex flex-row gap-1 mb-12 mt-4 items-center justify-center text-base font-semibold text-blackColor ">
+          <div className="font-montserrat flex flex-col gap-1 mb-12 mt-4 items-center justify-center text-base font-semibold text-blackColor ">
             <div className="flex gap-1 items-center">
               <img className="w-5" src="/date.svg" alt="" />
               <p>March 22nd-23rd</p>
