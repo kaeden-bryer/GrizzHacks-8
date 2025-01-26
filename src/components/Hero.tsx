@@ -28,21 +28,15 @@ const Hero = () => {
           <div className="flex gap-10 mt-4 2xl:mb-10 mb-12 justify-center">
             <div className="flex gap-2 items-center justify-center">
               <img className="w-8 2xl:w-10" src="/date.svg" alt="" />
-              <p
-                className="text-2xl 2xl:text-3xl font-bold text-blackColor"
-                style={{ fontFamily: "'Montserrat', sans-serif" }}
-              >
+              <h2 className="text-2xl 2xl:text-3xl text-blackColor">
                 March 22nd-23rd
-              </p>
+              </h2>
             </div>
             <div className="flex items-center justify-center gap-1">
               <img className="w-8 2xl:w-10" src="/pin.svg" alt="" />
-              <p
-                className="text-2xl 2xl:text-3xl font-bold text-blackColor"
-                style={{ fontFamily: "'Montserrat', sans-serif" }}
-              >
+              <h2 className="text-2xl 2xl:text-3xl text-blackColor">
                 Oakland University
-              </p>
+              </h2>
             </div>
           </div>
           <div className="flex flex-col gap-1 items-center">
@@ -53,9 +47,9 @@ const Hero = () => {
             >
               Register Now!
             </a>
-            <p className="flex text-base 2xl:text-lg font-semibold text-blackColor">
+            <h3 className="flex text-base 2xl:text-lg text-blackColor">
               Join the Quackathon
-            </p>
+            </h3>
           </div>
           <div className="flex items-center justify-center -mt-24">
             <img
@@ -77,11 +71,11 @@ const Hero = () => {
           <div className="font-montserrat flex flex-col gap-1 mb-12 mt-4 items-center justify-center text-base font-semibold text-blackColor ">
             <div className="flex gap-1 items-center">
               <img className="w-5" src="/date.svg" alt="" />
-              <p>March 22nd-23rd</p>
+              <h2>March 22nd-23rd</h2>
             </div>
             <div className="flex gap-0 items-center">
               <img className="w-5" src="/pin.svg" alt="" />
-              <p>Oakland University</p>
+              <h2>Oakland University</h2>
             </div>
           </div>
           <div className="flex flex-col gap-1 items-center">
@@ -91,9 +85,9 @@ const Hero = () => {
             >
               Register Now!
             </a>
-            <p className="flex text-base font-semibold font-montserrat">
+            <h3 className="flex text-base font-montserrat">
               Join the Quackathon
-            </p>
+            </h3>
           </div>
           <div className="flex items-center justify-center mt-8">
             <img
