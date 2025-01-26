@@ -35,7 +35,7 @@ const FlexPic = () => {
             </div>
 
             {/* Container for text elements */}
-            <div className="w-full flex flex-col items-start -mt-4">
+            <div className="font-montserrat w-full flex flex-col items-start -mt-4">
               {/* Name */}
               <h2 className="font-semibold text-blackColor text-lg md:text-xl mt-1 font-montserrat">
                 {member.name}

@@ -51,9 +51,9 @@ const FaqElement: React.FC<FaqElementProps> = ({
             role="button"
             tabIndex={0}
           >
-            <h5 className="xl:text-2xl md:text-xl text-lg font-semibold">
+            <h2 className="xl:text-2xl md:text-xl text-lg font-semibold">
               {question}
-            </h5>
+            </h2>
             <img
               src="/faq-arrow.svg"
               alt="Expand"

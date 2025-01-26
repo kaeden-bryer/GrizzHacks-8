@@ -90,13 +90,13 @@ const SponsorGrid = () => {
             Thank you for being a part of our journey. We couldn&apos;t do it
             without you!
           </h2>
-          <h3 className="text-center text-lg lg:text-xl 2xl:text-xl font-base mt-4">
+          <p className="text-center text-lg lg:text-xl 2xl:text-xl font-base mt-4">
             Looking to sponsor? Email us at{" "}
             <span className="underline underline-offset-4 decoration-blackColor hover:decoration-faqColor decoration-2">
               grizzhacksou@gmail.com
             </span>{" "}
             for more details!
-          </h3>
+          </p>
         </a>
 
         {/* StandOutStickers. Bronze */}
@@ -218,13 +218,13 @@ const SponsorGrid = () => {
             Thank you for being a part of our journey. We couldn&apos;t do it
             without you!
           </h2>
-          <h3 className="text-lg md:text-lg lg:text-xl font-base mt-2 text-left">
+          <p className="text-lg md:text-lg lg:text-xl font-base mt-2 text-left">
             Looking to sponsor? Email us at{" "}
             <span className="underline underline-offset-4 decoration-blackColor hover:decoration-faqColor decoration-2">
               grizzhacksou@gmail.com
             </span>{" "}
             for more details!
-          </h3>
+          </p>
         </a>
       </div>
 
@@ -323,13 +323,13 @@ const SponsorGrid = () => {
             Thank you for being a part of our journey. We couldn&apos;t do it
             without you!
           </h2>
-          <h3 className="text-base font-base mt-2 text-left">
+          <p className="text-base font-base mt-2 text-left">
             Looking to sponsor? Email us at{" "}
             <span className="underline underline-offset-4 decoration-blackColor hover:decoration-faqColor decoration-1">
               grizzhacksou@gmail.com
             </span>{" "}
             for more details!
-          </h3>
+          </p>
         </a>
       </div>
 
@@ -429,13 +429,13 @@ const SponsorGrid = () => {
             Thank you for being a part of our journey. We couldn&apos;t do it
             without you!
           </h2>
-          <h3 className="text-xs font-base mt-2 text-left">
+          <p className="text-xs font-base mt-2 text-left">
             Looking to sponsor? Email us at{" "}
             <span className="underline underline-offset-4 decoration-blackColor hover:decoration-faqColor decoration-1">
               grizzhacksou@gmail.com
             </span>{" "}
             for more details!
-          </h3>
+          </p>
         </a>
       </div>
     </>

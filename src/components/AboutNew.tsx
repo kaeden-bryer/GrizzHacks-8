@@ -17,7 +17,7 @@ const AboutNew = () => {
 
   return (
     <>
-      <div id="about" className="containerr p-2 font-montserrat">
+      <div id="about" className="containerr p-2">
         <h1 className="flex justify-center mb-5 bg-gradient-to-b from-primaryBlueStart to-primaryBlueEnd z-20 bg-clip-text text-center text-5xl py-2 text-transparent font-bold lg:text-7xl">
           About
         </h1>
@@ -25,13 +25,13 @@ const AboutNew = () => {
           <div className="flex flex-col lg:w-3/5 lg:m-0 justify-around">
             <div className="flex gap-2 flex-col">
               <div className="flex flex-col my-2">
-                <h4 className="text-lg md:text-xl lg:text-2xl 2xl:text-3xl font-semibold">
+                <h2 className="text-lg md:text-xl lg:text-2xl 2xl:text-3xl font-semibold">
                   We&apos;re back at OU with a{" "}
                   <i className="underline decoration-yellow decoration-2 underline-offset-4">
                     quackathon{" "}
                   </i>
                   !
-                </h4>
+                </h2>
                 <p className="lg:text-lg text-sm mt-2">
                   GrizzHacks is a 24 hour engineering marathon, welcome to all
                   students. Whether you&apos;re a seasoned developer building a
