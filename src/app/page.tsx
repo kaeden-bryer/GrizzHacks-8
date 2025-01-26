@@ -20,7 +20,7 @@ export default function Home() {
         </div>
         <div className="flex flex-col gap-24 ">
           <Hero />
-          <div className="mx-4 md:mx-md lg:mx-lg 2xl:mx-2xl">
+          <div className="mx-4 md:mx-md lg:mx-lg 2xl:mx-2xl -mt-8">
             <AboutNew />
           </div>
           <div className="mx-4 md:mx-md lg:mx-lg 2xl:mx-2xl">

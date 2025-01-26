@@ -36,6 +36,7 @@ export default {
       fontFamily: {
         recoleta: ["Recoleta", "sans-serif"],
         inter: ["Inter", "sans-serif"],
+        montserrat: ["Montserrat", "sans-serif"],
       },
       spacing: {
         sm: "2rem",

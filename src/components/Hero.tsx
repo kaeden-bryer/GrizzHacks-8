@@ -3,7 +3,7 @@ import React from "react";
 const Hero = () => {
   return (
     <>
-      <section className="min-w-screen min-h-screen relative flex items-center justify-center">
+      <section className="min-w-screen h-auto relative flex items-center justify-center">
         {/* desktop LARGE pic */}
         <img
           src="/cloudbg.png"
@@ -49,7 +49,7 @@ const Hero = () => {
             <a
               href="https://form.typeform.com/to/ozOq06mS"
               target="_blank"
-              className="flex items-center justify-center py-2 2xl:py-3 px-4 2xl:px-6 text-2xl 2xl:text-3xl rounded-2xl bg-primary hover:bg-primaryHover w-fit text-white font-semibold relative ring-2 ring-primaryHover"
+              className="flex items-center justify-center py-2 2xl:py-3 px-4 2xl:px-6 text-2xl lg:text-3xl rounded-2xl bg-primary hover:bg-primaryHover w-fit text-white font-semibold relative ring-2 ring-primaryHover"
               style={{ fontFamily: "'Montserrat', sans-serif" }}
             >
               Register Now!
@@ -73,37 +73,29 @@ const Hero = () => {
         {/*smaller screens, center align */}
         {/* NEED TO FIX */}
         <section className="md:hidden w-full">
-          <div className="flex flex-col items-center justify-center">
-            <h1 className="text-6xl font-bold bg-gradient-to-b from-blackStart to-blackEnd bg-clip-text text-transparent">
+          <div className="flex flex-col items-center justify-center mt-16">
+            <h1 className="text-5xl font-bold bg-gradient-to-b from-blackStart to-blackEnd bg-clip-text text-transparent">
               GrizzHacks 7
             </h1>
           </div>
-          <div className="flex flex-row gap-6 mb-8 mt-4 items-center justify-center">
+          <div className="font-montserrat flex flex-row gap-1 mb-12 mt-4 items-center justify-center text-base font-semibold text-blackColor ">
             <div className="flex gap-1 items-center">
-              <img className="w-6" src="/date.svg" alt="" />
-              <p className="text-lg  font-semibold text-blackColor">
-                March 22nd-23rd
-              </p>
+              <img className="w-5" src="/date.svg" alt="" />
+              <p>March 22nd-23rd</p>
             </div>
             <div className="flex gap-0 items-center">
-              <img className="w-6" src="/pin.svg" alt="" />
-              <p className="text-lg font-semibold text-blackColor">
-                Oakland University
-              </p>
+              <img className="w-5" src="/pin.svg" alt="" />
+              <p>Oakland University</p>
             </div>
           </div>
           <div className="flex flex-col gap-1 items-center">
             <a
               href="https://form.typeform.com/to/ozOq06mS"
-              className="flex items-center justify-center p-3 px-5 text-2xl lg:text-3xl 2xl:text-3xl rounded-xl bg-primary hover:bg-primaryHover w-fit text-white font-semibold relative ring-2 ring-primaryHover"
-              style={{ fontFamily: "'Montserrat', sans-serif" }}
+              className="font-montserrat flex items-center justify-center p-2 px-3 text-xl lg:text-3xl 2xl:text-3xl rounded-xl bg-primary hover:bg-primaryHover w-fit text-white font-semibold relative ring-2 ring-primaryHover"
             >
               Register Now!
             </a>
-            <p
-              className="flex text-lg font-semibold"
-              style={{ fontFamily: "'Montserrat', sans-serif" }}
-            >
+            <p className="flex text-base font-semibold font-montserrat">
               Join the Quackathon
             </p>
           </div>
@@ -111,7 +103,7 @@ const Hero = () => {
             <img
               src="/pondimg.png"
               alt="pond cartoon"
-              className="scale-[90%]"
+              className="scale-[120%] overflow-hidden"
             />
           </div>
         </section>

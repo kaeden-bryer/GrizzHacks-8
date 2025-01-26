@@ -8,7 +8,7 @@ const FlexPic = () => {
       <h1 className="flex justify-center bg-gradient-to-b from-primaryBlueStart to-primaryBlueEnd z-20 bg-clip-text text-center text-5xl py-2 text-transparent font-bold lg:text-7xl">
         Meet Our Team
       </h1>
-      <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 justify-items-center gap-1 p-4">
+      <div className="font-montserrat grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 justify-items-center gap-1 p-4">
         {teamData.map((member, index) => (
           <div
             key={index}

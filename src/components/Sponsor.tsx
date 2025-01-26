@@ -4,7 +4,7 @@ import SponsorGrid from "./SponsorGrid";
 const Sponsor = () => {
   return (
     <>
-      <section id="sponsors" className="containerr relative">
+      <section id="sponsors" className="containerr relative font-montserrat">
         <h1 className="flex justify-center bg-gradient-to-b from-primaryBlueStart to-primaryBlueEnd z-20 bg-clip-text text-center text-5xl py-2 text-transparent font-bold lg:text-7xl">
           Sponsors
         </h1>
