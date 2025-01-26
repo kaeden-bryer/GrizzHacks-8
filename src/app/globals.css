@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Montserrat Variable */
+@font-face {
+  font-family: "Montserrat Variable";
+  src: url("/fonts/montserrat-variablefont_wght-webfont.woff2") format("woff2"),
+    url("/fonts/montserrat-variablefont_wght-webfont.woff") format("woff"),
+    url("/fonts/Montserrat-VariableFont_wght.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+}
+
 /* Recoleta Black */
 @font-face {
   font-family: "Recoleta";
@@ -73,7 +83,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat Variable", sans-serif;
 }
 
 body {
