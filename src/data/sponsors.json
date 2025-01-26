@@ -19,7 +19,7 @@
   },
   {
     "name": "CyberOU",
-    "logo": "/sponsor_logos/cyber.svg",
+    "logo": "/sponsor_logos/cyber.png",
     "tier": "bronze",
     "link": "https://cyberou.github.io/cyberou-website/"
   },
@@ -37,7 +37,7 @@
   },
   {
     "name": "365 Retail Markets",
-    "logo": "/sponsor_logos/365.svg",
+    "logo": "/sponsor_logos/365.png",
     "tier": "silver",
     "link": "https://365retailmarkets.com/"
   }

@@ -17,7 +17,7 @@ const FaQ: React.FC = () => {
           className="transform absolute lg:scale-[90%] scale-[75%] -left-[12rem] overflow-hidden md:-left-[12rem] lg:-left-[16rem] -top-16 lg:-top-8 z-[-10]"
         />
         <img
-          src="/duckprint5.svg"
+          src="/duckprint5.png"
           className="transform lg:scale-[90%] scale-[80%] overflow-hidden absolute -right-[4.5rem] md:-right-[6rem] 2xl:-right-[17rem] -bottom-64 lg:-bottom-56 xl:-bottom-64 z-[-10]"
         />
 
