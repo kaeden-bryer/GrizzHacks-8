@@ -26,7 +26,7 @@ const AboutNew = () => {
             <div className="flex gap-2 flex-col">
               <div className="flex flex-col my-2">
                 <h2 className="text-lg md:text-xl lg:text-2xl 2xl:text-3xl font-semibold">
-                  We&apos;re back at OU with a{" "}
+                  We&apos;re back with a{" "}
                   <i className="underline decoration-yellow decoration-2 underline-offset-4">
                     quackathon{" "}
                   </i>
