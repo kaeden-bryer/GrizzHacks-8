@@ -4,7 +4,7 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <>
-      <div className="flex justify-between py-3 mt-5 items-center containerr px-2 bg-navWhite text-blackColor mt-24">
+      <div className="font-montserrat flex justify-between py-3 mt-5 items-center containerr px-2 bg-navWhite text-blackColor mt-24">
         <Link href="/" className="md:text-lg xl:text-xl text-sm">
           &copy;GrizzHacks {new Date().getFullYear()}
         </Link>

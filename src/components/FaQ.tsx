@@ -8,7 +8,7 @@ const FaQ: React.FC = () => {
   const [activeFaq, setActiveFaq] = useState<number | null>(null);
   return (
     <>
-      <section id="faq" className="containerr relative my-16">
+      <section id="faq" className="containerr relative my-16 font-montserrat">
         <h1 className="flex justify-center mb-5 bg-gradient-to-b from-primaryBlueStart to-primaryBlueEnd z-20 bg-clip-text text-center text-5xl py-2 text-transparent font-bold lg:text-7xl">
           FAQ&apos;s
         </h1>

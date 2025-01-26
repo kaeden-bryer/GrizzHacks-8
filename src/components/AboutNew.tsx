@@ -17,7 +17,7 @@ const AboutNew = () => {
 
   return (
     <>
-      <div id="about" className="containerr p-2">
+      <div id="about" className="containerr p-2 font-montserrat">
         <h1 className="flex justify-center mb-5 bg-gradient-to-b from-primaryBlueStart to-primaryBlueEnd z-20 bg-clip-text text-center text-5xl py-2 text-transparent font-bold lg:text-7xl">
           About
         </h1>
@@ -70,8 +70,8 @@ const AboutNew = () => {
           <div className="w-full lg:w-1/3 relative flex items-center justify-center">
             <img
               src="/images/IMG_7684-S.webp"
-              className="rounded-xl lg:mt-0 mt-6 md:mt-8 w-[88%] md:w-[40%] lg:w-[75%] h-auto object-cover z-10"
-              alt="Top down view of GrizzHacks"
+              className="rounded-xl lg:mt-0 mt-6 md:mt-8 w-[80%] md:w-[45%] lg:w-[80%] h-auto object-cover z-10"
+              alt="GrizzHacks bear"
             />
             <div className="inset-0 absolute rounded-lg">
               <img
@@ -81,7 +81,7 @@ const AboutNew = () => {
                     : "/yellowblob2.svg"
                 }
                 alt="yellow background"
-                className="absolute z-0 scale-[80%] md:scale-[90%] lg:scale-150 w-auto h-auto top-[60%] lg:top-1/2 left-1/2 -translate-x-[50%] lg:-translate-x-[53%] -translate-y-[52%] lg:-translate-y-1/2"
+                className="absolute z-0 scale-[80%] md:scale-[82%] lg:scale-150 w-auto h-auto top-[60%] lg:top-1/2 left-1/2 -translate-x-[50%] lg:-translate-x-[52%] -translate-y-[52%] lg:-translate-y-1/2"
               />
             </div>
           </div>
