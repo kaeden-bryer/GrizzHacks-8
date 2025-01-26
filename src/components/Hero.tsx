@@ -33,7 +33,7 @@ const Hero = () => {
               </h2>
             </div>
             <div className="flex items-center justify-center gap-1">
-              <img className="w-8 2xl:w-10" src="/pin.svg" alt="" />
+              <img className="w-8 2xl:w-10" src="/pin.png" alt="" />
               <h2 className="text-2xl 2xl:text-3xl text-blackColor">
                 Oakland University
               </h2>
@@ -74,7 +74,7 @@ const Hero = () => {
               <h2>March 22nd-23rd</h2>
             </div>
             <div className="flex gap-0 items-center">
-              <img className="w-5" src="/pin.svg" alt="" />
+              <img className="w-5" src="/pin.png" alt="" />
               <h2>Oakland University</h2>
             </div>
           </div>
