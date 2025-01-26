@@ -55,7 +55,7 @@ const FaqElement: React.FC<FaqElementProps> = ({
               {question}
             </h2>
             <img
-              src="/faq-arrow.svg"
+              src="/faq-arrow.png"
               alt="Expand"
               className={`w-5 transition-all duration-300 ${
                 active ? "rotate-90" : ""

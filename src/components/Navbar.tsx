@@ -106,7 +106,7 @@ const Navbar: React.FC = () => {
 
       {burgerClicked && (
         <div className="absolute mx-4 inset-x-0 top-20 md:top-24 rounded-lg flex flex-col lg:hidden text-xl navActive z-50 md:mx-12">
-          {["About", "Tracks", "Sponsors", "FAQ's"].map((item, index) => (
+          {["About", "Tracks", "Sponsors", "FAQs"].map((item, index) => (
             <a
               key={item}
               href={`/#${item.toLowerCase()}`}
