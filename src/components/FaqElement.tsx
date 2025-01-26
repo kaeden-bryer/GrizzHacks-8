@@ -35,7 +35,7 @@ const FaqElement: React.FC<FaqElementProps> = ({
         {/* duck */}
         {active && (
           <div className="absolute -top-[5rem] right-0 w-20">
-            <img src="/faqduck.svg" alt="" className="w-full h-auto" />
+            <img src="/faqduck.png" alt="" className="w-full h-auto" />
           </div>
         )}
 
