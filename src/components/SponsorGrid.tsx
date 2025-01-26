@@ -245,7 +245,7 @@ const SponsorGrid = () => {
         {/* 365 Retail Markets. Silver */}
         <a
           href={sponsors[6].link}
-          className="p-2 col-span-2 row-span-1 bg-offWhite ring-2 ring-primary flex items-center justify-center rounded-md hover:from-[#C0C0C0]/70 hover:via-[#C0C0C0]/30 hover:to-[#C0C0C0]/70 hover:bg-gradient-to-bl"
+          className="p-2 max-h-[150px] col-span-2 row-span-1 bg-offWhite ring-2 ring-primary flex items-center justify-center rounded-md hover:from-[#C0C0C0]/70 hover:via-[#C0C0C0]/30 hover:to-[#C0C0C0]/70 hover:bg-gradient-to-bl"
         >
           <img
             src={`${sponsors[6].logo}`}
@@ -257,12 +257,12 @@ const SponsorGrid = () => {
         {/* People.Health. Silver */}
         <a
           href={sponsors[2].link}
-          className="p-2 col-span-2 row-span-1 bg-offWhite ring-2 ring-primary flex items-center justify-center rounded-md hover:from-[#C0C0C0]/70 hover:via-[#C0C0C0]/30 hover:to-[#C0C0C0]/70 hover:bg-gradient-to-bl"
+          className="p-2 max-h-[150px] col-span-2 row-span-1 bg-offWhite ring-2 ring-primary flex items-center justify-center rounded-md hover:from-[#C0C0C0]/70 hover:via-[#C0C0C0]/30 hover:to-[#C0C0C0]/70 hover:bg-gradient-to-bl"
         >
           <img
             src={`${sponsors[2].logo}`}
             alt={`${sponsors[2].name} Logo`}
-            className="w-full h-full object-contain"
+            className="w-[90%] h-full object-contain"
           />
         </a>
 
