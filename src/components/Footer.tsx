@@ -5,8 +5,8 @@ const Footer = () => {
   return (
     <>
       <div className="font-montserrat flex justify-between py-3 mt-5 items-center containerr px-2 bg-navWhite text-blackColor mt-24">
-        <Link href="/" className="md:text-lg xl:text-xl text-sm">
-          &copy;GrizzHacks {new Date().getFullYear()}
+        <Link href="/" className="md:text-base xl:text-lg text-xs">
+          &copy; GrizzHacks {new Date().getFullYear()}
         </Link>
         <a
           href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf"
