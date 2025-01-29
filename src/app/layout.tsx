@@ -4,7 +4,8 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "GrizzHacks 7",
-  description: "Oakland University's Goated Hackathon",
+  description:
+    "GrizzHacks is back with a quackathon! Register now for Oakland University's 24 hour hackathon.",
 };
 
 export default function RootLayout({
