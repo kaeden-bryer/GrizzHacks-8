@@ -44,6 +44,14 @@
     "a": "Yes, you can bring materials but you MUST be sure to specify what you brought vs what you built in your project submission"
   },
   {
+    "q": "Will there be travel reimbursements?",
+    "a": "Unfortunately, we are unable to provide travel reimbursements at this time."
+  },
+  {
+    "q": "What if I don't know how to code?",
+    "a": "That's okay! Everyone begins somewhere, and hackathons are a great place to learn and grow. We'll have workshops and mentors available to kickstart your journey, and you don't have to submit a project or present (even though it's highly encouraged)."
+  },
+  {
     "q": "Other questions?",
     "a": "You can email <a class='text-primary underline underline-offset-2 hover:underline-offset-4 transition-all' href='mailto:grizzhacksou@gmail.com'>Grizzhacksou@gmail.com</a> with any other questions"
   }
