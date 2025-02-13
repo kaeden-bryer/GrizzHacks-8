@@ -40,5 +40,29 @@
     "logo": "/sponsor_logos/365.png",
     "tier": "silver",
     "link": "https://365retailmarkets.com/"
+  },
+  {
+    "name": "FreeWili",
+    "logo": "/sponsor_logos/freewili.png",
+    "tier": "gold",
+    "link": "https://freewili.com/"
+  },
+  {
+    "name": "KL&A",
+    "logo": "/sponsor_logos/kla.png",
+    "tier": "bronze",
+    "link": "https://kunzleigh.com/"
+  },
+  {
+    "name": "Whisker",
+    "logo": "/sponsor_logos/whisker.png",
+    "tier": "silver",
+    "link": "https://hello.whisker.com/"
+  },
+  {
+    "name": "87SportsCards",
+    "logo": "/sponsor_logos/87.png",
+    "tier": "bronze",
+    "link": "https://www.instagram.com/87sportscards/"
   }
 ]
