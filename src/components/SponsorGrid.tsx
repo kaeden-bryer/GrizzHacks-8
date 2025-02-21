@@ -14,7 +14,7 @@ const SponsorGrid = () => {
           <img
             src={`${sponsors[1].logo}`}
             alt={`${sponsors[1].name} Logo`}
-            className=" w-[20rem]"
+            className=" w-[24rem]"
           />
         </a>
 
@@ -86,7 +86,7 @@ const SponsorGrid = () => {
           <img
             src={`${sponsors[9].logo}`}
             alt={`${sponsors[9].name} Logo`}
-            className="absolute w-[22rem]"
+            className="absolute w-[20rem]"
           />
         </a>
 
@@ -98,7 +98,7 @@ const SponsorGrid = () => {
           <img
             src={`${sponsors[7].logo}`}
             alt={`${sponsors[7].name} Logo`}
-            className=" w-[20rem]"
+            className=" w-[32rem]"
           />
         </a>
 
@@ -122,7 +122,7 @@ const SponsorGrid = () => {
           <img
             src={`${sponsors[10].logo}`}
             alt={`${sponsors[10].name} Logo`}
-            className="absolute w-[10rem]"
+            className="absolute w-[8rem]"
           />
         </a>
 
@@ -193,7 +193,7 @@ const SponsorGrid = () => {
           <img
             src={`${sponsors[1].logo}`}
             alt={`${sponsors[1].name} Logo`}
-            className=" w-64"
+            className=" w-[20rem]"
           />
         </a>
 
@@ -205,7 +205,7 @@ const SponsorGrid = () => {
           <img
             src={`${sponsors[7].logo}`}
             alt={`${sponsors[7].name} Logo`}
-            className=" w-64"
+            className=" w-[28rem]"
           />
         </a>
 
@@ -217,7 +217,7 @@ const SponsorGrid = () => {
           <img
             src={`${sponsors[6].logo}`}
             alt={`${sponsors[6].name} Logo`}
-            className="absolute w-[20rem]"
+            className="absolute w-[22rem]"
           />
         </a>
 
@@ -229,7 +229,7 @@ const SponsorGrid = () => {
           <img
             src={`${sponsors[2].logo}`}
             alt={`${sponsors[2].name} Logo`}
-            className="absolute w-64"
+            className="absolute w-[22rem]"
           />
         </a>
 
@@ -253,7 +253,7 @@ const SponsorGrid = () => {
           <img
             src={`${sponsors[9].logo}`}
             alt={`${sponsors[9].name} Logo`}
-            className="absolute w-80"
+            className="absolute w-[18rem]"
           />
         </a>
 
@@ -301,7 +301,7 @@ const SponsorGrid = () => {
           <img
             src={`${sponsors[10].logo}`}
             alt={`${sponsors[10].name} Logo`}
-            className="absolute w-[12rem]"
+            className="absolute w-[6rem]"
           />
         </a>
 
@@ -406,7 +406,7 @@ const SponsorGrid = () => {
           <img
             src={`${sponsors[9].logo}`}
             alt={`${sponsors[9].name} Logo`}
-            className="w-[90%] h-full object-contain"
+            className="w-[80%] h-full object-contain"
           />
         </a>
 
@@ -442,7 +442,7 @@ const SponsorGrid = () => {
           <img
             src={`${sponsors[3].logo}`}
             alt={`${sponsors[3].name} Logo`}
-            className="w-full max-w-[125px] h-full object-contain"
+            className="w-[20rem] object-contain"
           />
         </a>
 
@@ -512,7 +512,7 @@ const SponsorGrid = () => {
           <img
             src={`${sponsors[7].logo}`}
             alt={`${sponsors[7].name} Logo`}
-            className="w-full h-full object-contain"
+            className="w-[16rem] object-contain"
           />
         </a>
 
@@ -524,7 +524,7 @@ const SponsorGrid = () => {
           <img
             src={`${sponsors[6].logo}`}
             alt={`${sponsors[6].name} Logo`}
-            className="w-full h-full object-contain"
+            className="w-full h-[60px]object-contain"
           />
         </a>
 
@@ -536,7 +536,7 @@ const SponsorGrid = () => {
           <img
             src={`${sponsors[2].logo}`}
             alt={`${sponsors[2].name} Logo`}
-            className="w-full h-full object-contain"
+            className="w-full h-[60px] object-contain"
           />
         </a>
 
@@ -548,7 +548,7 @@ const SponsorGrid = () => {
           <img
             src={`${sponsors[8].logo}`}
             alt={`${sponsors[8].name} Logo`}
-            className="w-full max-w-[100px] h-full object-contain"
+            className="w-full max-w-[100px] h-[60px] object-contain"
           />
         </a>
 
@@ -560,7 +560,7 @@ const SponsorGrid = () => {
           <img
             src={`${sponsors[9].logo}`}
             alt={`${sponsors[9].name} Logo`}
-            className="w-full h-full object-contain"
+            className="w-[80%] h-[60px] object-contain"
           />
         </a>
 
@@ -572,7 +572,7 @@ const SponsorGrid = () => {
           <img
             src={`${sponsors[5].logo}`}
             alt={`${sponsors[5].name} Logo`}
-            className="w-full max-w-[100px] h-full object-contain"
+            className="w-full max-w-[100px] h-[60px] object-contain"
           />
         </a>
 
@@ -608,7 +608,7 @@ const SponsorGrid = () => {
           <img
             src={`${sponsors[10].logo}`}
             alt={`${sponsors[10].name} Logo`}
-            className="w-full max-w-[100px] h-full object-contain"
+            className="w-full max-w-[100px] h-[90%] object-contain"
           />
         </a>
 
