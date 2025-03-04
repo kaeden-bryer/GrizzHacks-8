@@ -64,5 +64,17 @@
     "logo": "/sponsor_logos/87.PNG",
     "tier": "bronze",
     "link": "https://www.instagram.com/87sportscards/"
+  },
+  {
+    "name": "Martinrea",
+    "logo": "/sponsor_logos/martinrea.png",
+    "tier": "bronze",
+    "link": "https://www.martinrea.com/"
+  },
+  {
+    "name": "O Grizzly's",
+    "logo": "/sponsor_logos/ogrizzlys.png",
+    "tier": "bronze",
+    "link": "https://ogrizzlys.com/"
   }
 ]
