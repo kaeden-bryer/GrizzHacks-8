@@ -54,14 +54,14 @@ const SponsorGrid = () => {
           />
         </a>
 
-        {/* Github. Bronze */}
+        {/* Martinrea. Bronze */}
         <a
-          href={sponsors[5].link}
+          href={sponsors[11].link}
           className="p-6 col-span-1 row-span-1 ring-2 ring-primary bg-offWhite flex items-center justify-center rounded-md hover:from-[#CD7F32]/80 hover:via-[#CD7F32]/40 hover:to-[#CD7F32]/80 hover:bg-gradient-to-bl"
         >
           <img
-            src={`${sponsors[5].logo}`}
-            alt={`${sponsors[5].name} Logo`}
+            src={`${sponsors[11].logo}`}
+            alt={`${sponsors[11].name} Logo`}
             className="absolute w-[10rem]"
           />
         </a>
@@ -102,14 +102,14 @@ const SponsorGrid = () => {
           />
         </a>
 
-        {/* StandOutStickers. Bronze */}
+        {/* Github. Bronze */}
         <a
-          href={sponsors[4].link}
+          href={sponsors[5].link}
           className="p-6 col-span-1 row-span-1 ring-2 ring-primary bg-offWhite flex items-center justify-center rounded-md hover:from-[#CD7F32]/80 hover:via-[#CD7F32]/40 hover:to-[#CD7F32]/80 hover:bg-gradient-to-bl"
         >
           <img
-            src={`${sponsors[4].logo}`}
-            alt={`${sponsors[4].name} Logo`}
+            src={`${sponsors[5].logo}`}
+            alt={`${sponsors[5].name} Logo`}
             className="absolute w-[10rem]"
           />
         </a>
@@ -138,11 +138,17 @@ const SponsorGrid = () => {
           />
         </a>
 
-        {/* BRONZE SPACER */}
+        {/* OGrizzlys. Bronze */}
         <a
-          href=""
-          className="p-6 col-span-1 row-span-1  bg-bgblue flex items-center justify-center rounded-md"
-        ></a>
+          href={sponsors[12].link}
+          className="p-6 col-span-1 row-span-1 ring-2 ring-primary bg-offWhite flex items-center justify-center rounded-md hover:from-[#CD7F32]/80 hover:via-[#CD7F32]/40 hover:to-[#CD7F32]/80 hover:bg-gradient-to-bl"
+        >
+          <img
+            src={`${sponsors[12].logo}`}
+            alt={`${sponsors[12].name} Logo`}
+            className="absolute w-[12rem]"
+          />
+        </a>
 
         {/* Thank you message */}
         {/* A huge thank you to our amazing sponsors! Your support means the
@@ -165,11 +171,17 @@ const SponsorGrid = () => {
           </p>
         </a>
 
-        {/* BRONZE SPACER */}
+        {/* StandOutStickers. Bronze */}
         <a
-          href=""
-          className="p-6 col-span-1 row-span-1  bg-bgblue flex items-center justify-center rounded-md"
-        ></a>
+          href={sponsors[4].link}
+          className="p-6 col-span-1 row-span-1 ring-2 ring-primary bg-offWhite flex items-center justify-center rounded-md hover:from-[#CD7F32]/80 hover:via-[#CD7F32]/40 hover:to-[#CD7F32]/80 hover:bg-gradient-to-bl"
+        >
+          <img
+            src={`${sponsors[4].logo}`}
+            alt={`${sponsors[4].name} Logo`}
+            className="absolute w-[10rem]"
+          />
+        </a>
       </div>
 
       {/*
@@ -257,14 +269,14 @@ const SponsorGrid = () => {
           />
         </a>
 
-        {/* GITHUB BRONZE */}
+        {/* Martinrea BRONZE */}
         <a
-          href={sponsors[5].link}
+          href={sponsors[11].link}
           className="p-6 col-span-1 row-span-1 bg-offWhite ring-2 ring-primary flex items-center justify-center rounded-md hover:from-[#CD7F32]/80 hover:via-[#CD7F32]/40 hover:to-[#CD7F32]/80 hover:bg-gradient-to-bl"
         >
           <img
-            src={`${sponsors[5].logo}`}
-            alt={`${sponsors[5].name} Logo`}
+            src={`${sponsors[11].logo}`}
+            alt={`${sponsors[11].name} Logo`}
             className="absolute w-32"
           />
         </a>
@@ -305,6 +317,48 @@ const SponsorGrid = () => {
           />
         </a>
 
+        {/* GitHub. Bronze */}
+        <a
+          href={sponsors[5].link}
+          className="p-6 col-span-1 row-span-1 bg-offWhite ring-2 ring-primary flex items-center justify-center rounded-md hover:from-[#CD7F32]/80 hover:via-[#CD7F32]/40 hover:to-[#CD7F32]/80 hover:bg-gradient-to-bl"
+        >
+          <img
+            src={`${sponsors[5].logo}`}
+            alt={`${sponsors[5].name} Logo`}
+            className="absolute w-32"
+          />
+        </a>
+
+        {/* OGrizzlys. Bronze */}
+        <a
+          href={sponsors[12].link}
+          className="p-6 col-span-1 row-span-1 bg-offWhite ring-2 ring-primary flex items-center justify-center rounded-md hover:from-[#CD7F32]/80 hover:via-[#CD7F32]/40 hover:to-[#CD7F32]/80 hover:bg-gradient-to-bl"
+        >
+          <img
+            src={`${sponsors[12].logo}`}
+            alt={`${sponsors[12].name} Logo`}
+            className="absolute w-[10rem]"
+          />
+        </a>
+
+        {/* THANK YOU */}
+        <a
+          href="mailto:grizzhacksou@gmail.com"
+          className=" text-blackColor bg-offWhite flex flex-col px-3 py-2 items-center justify-center col-span-2 row-span-1 ring-2 ring-primary rounded-md hover:bg-gradient-to-bl hover:from-primaryBlueEnd/90 hover:via-primaryBlueStart/50 hover:to-primaryBlueEnd/90"
+        >
+          <h2 className="text-base md:text-sm lg:text-base text-center font-semibold">
+            Thank you for being a part of our journey. We couldn&apos;t do it
+            without you!
+          </h2>
+          <p className="text-sm md:text-sm lg:text-sm font-base text-center">
+            Looking to sponsor? Email us at{" "}
+            <span className="underline underline-offset-4 decoration-blackColor hover:decoration-faqColor decoration-2">
+              grizzhacksou@gmail.com
+            </span>{" "}
+            for more details!
+          </p>
+        </a>
+
         {/* StandOutStickers. Bronze */}
         <a
           href={sponsors[4].link}
@@ -315,24 +369,6 @@ const SponsorGrid = () => {
             alt={`${sponsors[4].name} Logo`}
             className="absolute w-32"
           />
-        </a>
-
-        {/* THANK YOU */}
-        <a
-          href="mailto:grizzhacksou@gmail.com"
-          className=" text-blackColor bg-offWhite flex flex-col px-6 py-2 items-center justify-center col-span-4 row-span-1 ring-2 ring-primary rounded-md hover:bg-gradient-to-bl hover:from-primaryBlueEnd/90 hover:via-primaryBlueStart/50 hover:to-primaryBlueEnd/90"
-        >
-          <h2 className="text-xl md:text-lg lg:text-xl  font-semibold">
-            Thank you for being a part of our journey. We couldn&apos;t do it
-            without you!
-          </h2>
-          <p className="text-lg md:text-base lg:text-lg font-base mt-1 text-left">
-            Looking to sponsor? Email us at{" "}
-            <span className="underline underline-offset-4 decoration-blackColor hover:decoration-faqColor decoration-2">
-              grizzhacksou@gmail.com
-            </span>{" "}
-            for more details!
-          </p>
         </a>
       </div>
 
@@ -410,15 +446,15 @@ const SponsorGrid = () => {
           />
         </a>
 
-        {/* GITHUB BRONZE */}
+        {/* Martinrea BRONZE */}
         <a
-          href={sponsors[5].link}
+          href={sponsors[11].link}
           className="p-2 col-span-1 row-span-1 bg-offWhite ring-2 ring-primary flex items-center justify-center rounded-md hover:from-[#CD7F32]/80 hover:via-[#CD7F32]/40 hover:to-[#CD7F32]/80 hover:bg-gradient-to-bl"
         >
           <img
-            src={`${sponsors[5].logo}`}
-            alt={`${sponsors[5].name} Logo`}
-            className="w-full max-w-[125px] h-full object-contain"
+            src={`${sponsors[11].logo}`}
+            alt={`${sponsors[11].name} Logo`}
+            className="w-[7rem] object-contain"
           />
         </a>
 
@@ -458,34 +494,58 @@ const SponsorGrid = () => {
           />
         </a>
 
-        {/* StandOutStickers. Bronze */}
+        {/* GitHub. Bronze */}
         <a
-          href={sponsors[4].link}
+          href={sponsors[5].link}
           className="p-2 col-span-1 row-span-1 bg-offWhite ring-2 ring-primary flex items-center justify-center rounded-md hover:from-[#CD7F32]/80 hover:via-[#CD7F32]/40 hover:to-[#CD7F32]/80 hover:bg-gradient-to-bl"
         >
           <img
-            src={`${sponsors[4].logo}`}
-            alt={`${sponsors[4].name} Logo`}
+            src={`${sponsors[5].logo}`}
+            alt={`${sponsors[5].name} Logo`}
             className="w-full max-w-[125px] h-full object-contain"
+          />
+        </a>
+
+        {/* OGrizzlys. Bronze */}
+        <a
+          href={sponsors[12].link}
+          className="p-6 col-span-1 row-span-1 bg-offWhite ring-2 ring-primary flex items-center justify-center rounded-md hover:from-[#CD7F32]/80 hover:via-[#CD7F32]/40 hover:to-[#CD7F32]/80 hover:bg-gradient-to-bl"
+        >
+          <img
+            src={`${sponsors[12].logo}`}
+            alt={`${sponsors[12].name} Logo`}
+            className="absolute w-[10rem]"
           />
         </a>
 
         {/* THANK YOU */}
         <a
           href="mailto:grizzhacksou@gmail.com"
-          className=" text-blackColor bg-offWhite flex flex-col p-x-6 py-2 justify-center items-center col-span-4 row-span-1 ring-2 ring-primary rounded-md hover:bg-gradient-to-bl hover:from-primaryBlueEnd/90 hover:via-primaryBlueStart/50 hover:to-primaryBlueEnd/90"
+          className=" text-blackColor bg-offWhite flex flex-col px-6 py-2 justify-center items-center col-span-2 row-span-1 ring-2 ring-primary rounded-md hover:bg-gradient-to-bl hover:from-primaryBlueEnd/90 hover:via-primaryBlueStart/50 hover:to-primaryBlueEnd/90"
         >
-          <h2 className="text-lg font-semibold">
+          <h2 className="text-sm font-semibold text-center">
             Thank you for being a part of our journey. We couldn&apos;t do it
             without you!
           </h2>
-          <p className="text-base font-base mt-2 text-left">
+          <p className="text-xs font-base text-center">
             Looking to sponsor? Email us at{" "}
             <span className="underline underline-offset-4 decoration-blackColor hover:decoration-faqColor decoration-1">
               grizzhacksou@gmail.com
             </span>{" "}
             for more details!
           </p>
+        </a>
+
+        {/* StandOutStickers. Bronze */}
+        <a
+          href={sponsors[4].link}
+          className="p-6 col-span-1 row-span-1 bg-offWhite ring-2 ring-primary flex items-center justify-center rounded-md hover:from-[#CD7F32]/80 hover:via-[#CD7F32]/40 hover:to-[#CD7F32]/80 hover:bg-gradient-to-bl"
+        >
+          <img
+            src={`${sponsors[4].logo}`}
+            alt={`${sponsors[4].name} Logo`}
+            className="absolute w-32"
+          />
         </a>
       </div>
 
@@ -564,14 +624,14 @@ const SponsorGrid = () => {
           />
         </a>
 
-        {/* GITHUB BRONZE */}
+        {/* Martinrea BRONZE */}
         <a
-          href={sponsors[5].link}
+          href={sponsors[11].link}
           className="p-2 col-span-1 row-span-1 bg-offWhite max-h-[100px] ring-2 ring-primary flex items-center justify-center rounded-md hover:from-[#CD7F32]/80 hover:via-[#CD7F32]/40 hover:to-[#CD7F32]/80 hover:bg-gradient-to-bl"
         >
           <img
-            src={`${sponsors[5].logo}`}
-            alt={`${sponsors[5].name} Logo`}
+            src={`${sponsors[11].logo}`}
+            alt={`${sponsors[11].name} Logo`}
             className="w-full max-w-[100px] h-[60px] object-contain"
           />
         </a>
@@ -612,7 +672,42 @@ const SponsorGrid = () => {
           />
         </a>
 
-        {/* StandOutStickers. Bronze */}
+        {/* GITHUB BRONZE */}
+        <a
+          href={sponsors[5].link}
+          className="p-2 col-span-1 row-span-1 bg-offWhite max-h-[100px] ring-2 ring-primary flex items-center justify-center rounded-md hover:from-[#CD7F32]/80 hover:via-[#CD7F32]/40 hover:to-[#CD7F32]/80 hover:bg-gradient-to-bl"
+        >
+          <img
+            src={`${sponsors[5].logo}`}
+            alt={`${sponsors[5].name} Logo`}
+            className="w-full max-w-[100px] h-[60px] object-contain"
+          />
+        </a>
+
+        {/* OGrizzlys. Bronze */}
+        <a
+          href={sponsors[12].link}
+          className="p-2 col-span-1 row-span-1 bg-offWhite max-h-[100px] ring-2 ring-primary flex items-center justify-center rounded-md hover:from-[#CD7F32]/80 hover:via-[#CD7F32]/40 hover:to-[#CD7F32]/80 hover:bg-gradient-to-bl"
+        >
+          <img
+            src={`${sponsors[12].logo}`}
+            alt={`${sponsors[12].name} Logo`}
+            className="w-full max-w-[100px] h-full object-contain"
+          />
+        </a>
+
+        {/* THANK YOU */}
+        <a
+          href="mailto:grizzhacksou@gmail.com"
+          className=" text-blackColor bg-offWhite flex items-center p-2 col-span-2 row-span-1 ring-2 ring-primary rounded-md hover:bg-gradient-to-bl hover:from-primaryBlueEnd/90 hover:via-primaryBlueStart/50 hover:to-primaryBlueEnd/90"
+        >
+          <h2 className="text-xs font-semibold text-center">
+            Thank you for being a part of our journey. We couldn&apos;t do it
+            without you!
+          </h2>
+        </a>
+
+        {/* Standout Stickers. Bronze */}
         <a
           href={sponsors[4].link}
           className="p-2 col-span-1 row-span-1 bg-offWhite max-h-[100px] ring-2 ring-primary flex items-center justify-center rounded-md hover:from-[#CD7F32]/80 hover:via-[#CD7F32]/40 hover:to-[#CD7F32]/80 hover:bg-gradient-to-bl"
@@ -622,24 +717,6 @@ const SponsorGrid = () => {
             alt={`${sponsors[4].name} Logo`}
             className="w-full max-w-[100px] h-full object-contain"
           />
-        </a>
-
-        {/* THANK YOU */}
-        <a
-          href="mailto:grizzhacksou@gmail.com"
-          className=" text-blackColor bg-offWhite flex flex-col p-2 col-span-4 row-span-1 ring-2 ring-primary rounded-md hover:bg-gradient-to-bl hover:from-primaryBlueEnd/90 hover:via-primaryBlueStart/50 hover:to-primaryBlueEnd/90"
-        >
-          <h2 className="text-sm font-semibold">
-            Thank you for being a part of our journey. We couldn&apos;t do it
-            without you!
-          </h2>
-          <p className="text-xs font-base mt-2 text-left">
-            Looking to sponsor? Email us at{" "}
-            <span className="underline underline-offset-4 decoration-blackColor hover:decoration-faqColor decoration-1">
-              grizzhacksou@gmail.com
-            </span>{" "}
-            for more details!
-          </p>
         </a>
       </div>
     </>
