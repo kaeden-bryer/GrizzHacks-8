@@ -30,11 +30,11 @@ const Tracks = () => {
 
         <div className="grid lg:grid-cols-2 gap-4 mt-20 mx-2">
           <TrackCard
-            title={"Automotive"}
+            title={"Free-WILi"}
             description={
-              "The Automotive Track is driving into the next generation of automotive innovation. Explore the technologies that are reshaping how we travel, and interact with vehicles for a smarter, more connected world."
+              "This is your chance to dive in and innovate with FREE-WiLi hardware — a cutting-edge embedded development platform designed for rapid prototyping. Equipped with 32-bit processing, versatile connectivity, and real-time debugging, it’s the perfect tool to bring your ideas to life and build skills that stand out."
             }
-            icon={"/images/AutomotiveLogo.svg"}
+            icon={"/images/FreeWiliLogo.png"}
           />
           <TrackCard
             title={"AI/ML"}
