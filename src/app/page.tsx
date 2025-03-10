@@ -6,6 +6,7 @@ import Sponsor from "@/components/Sponsor";
 import FaQ from "@/components/FaQ";
 import Footer from "@/components/Footer";
 import FlexPic from "@/components/FlexPic";
+import Events from "@/components/Events";
 
 export default function Home() {
   return (
@@ -22,6 +23,9 @@ export default function Home() {
           <Hero />
           <div className="mx-4 md:mx-md lg:mx-lg 2xl:mx-2xl -mt-8">
             <AboutNew />
+          </div>
+          <div className="mx-4 md:mx-md lg:mx-lg 2xl:mx-2xl -mt-8">
+            <Events />
           </div>
           <div className="mx-4 md:mx-md lg:mx-lg 2xl:mx-2xl">
             <Tracks />
