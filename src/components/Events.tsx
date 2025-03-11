@@ -21,10 +21,13 @@ const Events: React.FC = () => {
       <h1 className="flex justify-center mb-5 bg-gradient-to-b from-primaryBlueStart to-primaryBlueEnd z-20 bg-clip-text text-center text-5xl py-2 text-transparent font-bold lg:text-7xl">
         Schedule
       </h1>
-      {/* BIG SCREENS */}
       <div className="flex justify-end">
-        <img src="/bearDuck.png" className="w-[10rem] -mt-16 -mb-14" />
+        <img
+          src="/bearDuck.png"
+          className="h-auto w-[5rem] md:w-[8rem] lg:w-[10rem] -mr-4 sm:mr:0 -mt-16 md:-mt-20 xl:-mt-16 -mb-4 md:-mb-6 lg:-mb-14"
+        />
       </div>
+      {/* BIG SCREENS */}
       <div className="w-full gap-3 hidden lg:flex">
         {/* SATURDAY */}
         <div className="w-1/2 flex flex-col">
