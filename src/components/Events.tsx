@@ -22,6 +22,9 @@ const Events: React.FC = () => {
         Schedule
       </h1>
       {/* BIG SCREENS */}
+      <div className="flex justify-end">
+        <img src="/bearDuck.png" className="w-[10rem] -mt-16 -mb-14" />
+      </div>
       <div className="w-full gap-3 hidden lg:flex">
         {/* SATURDAY */}
         <div className="w-1/2 flex flex-col">
@@ -70,8 +73,8 @@ const Events: React.FC = () => {
       {/* SMALLER SCREENS */}
       <div className="w-full lg:hidden">
         <div className="flex items-end mx-1 justify-between mb-1">
-          <h4 className="text-2xl text-neutral-300/80">
-            <span className="font-semibold text-white">
+          <h4 className="text-xl text-neutral-800/80">
+            <span className="font-semibold text-black mr-2">
               {saturdaySelected ? "Saturday" : "Sunday"}
             </span>
             {saturdaySelected ? "March 22nd" : "March 23rd"}
@@ -81,7 +84,11 @@ const Events: React.FC = () => {
             onClick={() => setSaturdaySelected(!saturdaySelected)}
           >
             {saturdaySelected ? "Sunday" : "Saturday"}
-            <img src="/arrowRight.svg" alt="arrow" />
+            <img
+              src="/arrowRight.svg"
+              alt="arrow"
+              className="w-[1.5rem] ml-1"
+            />
           </button>
         </div>
         <div className="overflow-auto h-[30rem] rounded-lg">
