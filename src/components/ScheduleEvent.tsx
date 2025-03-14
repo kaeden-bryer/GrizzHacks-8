@@ -15,12 +15,12 @@ const ScheduleEvent: React.FC<ScheduleEventProps> = ({
   time,
   location,
 }) => {
-  const [clicked, setClicked] = useState(false);
+  // const [clicked, setClicked] = useState(false);
 
   // Determine the color based on the index (even or odd)
   const color = index % 2 === 0 ? "bg-offWhite" : "bg-neutral-100/50";
 
-  if (clicked) return null;
+  // if (clicked) return null;
 
   return (
     <>
