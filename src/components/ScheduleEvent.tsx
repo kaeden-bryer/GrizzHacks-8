@@ -1,5 +1,3 @@
-import React, { useState } from "react";
-
 interface ScheduleEventProps {
   index: number;
   title: string;
