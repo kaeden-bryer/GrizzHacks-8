@@ -26,8 +26,8 @@ const ScheduleEvent: React.FC<ScheduleEventProps> = ({
     <>
       <div className={`w-full p-4 flex-col ${color}`}>
         <div className="flex justify-between">
-          <h5 className="text-black lg:text-lg">{title}</h5>
-          <p className="text-neutral-800 lg:text-base text-sm">{time}</p>
+          <h5 className="text-black lg:text-lg text-sm">{title}</h5>
+          <p className="text-neutral-800 lg:text-base text-xs">{time}</p>
         </div>
         <div className="flex justify-between">
           <p
