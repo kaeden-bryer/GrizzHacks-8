@@ -56,7 +56,17 @@ const AboutNew = () => {
                 </p>
               </div>
             </div>
-            <p className="lg:text-lg text-smmt-2">
+            <p className="lg:text-lg text-sm mt-2">
+              Visit our{" "}
+              <a
+                href="DEVPOST LINK"
+                className="text-primary underline underline-offset-2 decoration-yellow hover:underline-offset-4 transition-all"
+              >
+                DevPost
+              </a>{" "}
+              for information on prizes, judging criteria, rules, and more!
+            </p>
+            <p className="lg:text-lg text-sm mt-2">
               Still have questions? Check out our{" "}
               <Link
                 href="#faq"
