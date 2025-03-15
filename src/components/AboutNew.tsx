@@ -59,7 +59,8 @@ const AboutNew = () => {
             <p className="lg:text-lg text-sm mt-2">
               Visit our{" "}
               <a
-                href="DEVPOST LINK"
+                href="https://grizzhacks7.devpost.com/"
+                target="_blank"
                 className="text-primary underline underline-offset-2 decoration-yellow hover:underline-offset-4 transition-all"
               >
                 DevPost
