@@ -39,14 +39,12 @@ const Navbar: React.FC = () => {
           >
             About
           </a>
-          {/*
           <a
             href="#schedule"
             className="font-semibold hover:text-primary transition-all duration-100"
           >
             Schedule
           </a>
-          */}
           <a
             href="#tracks"
             className="font-semibold hover:text-primary transition-all duration-100"
@@ -106,23 +104,25 @@ const Navbar: React.FC = () => {
 
       {burgerClicked && (
         <div className="absolute mx-4 inset-x-0 top-20 md:top-24 rounded-lg flex flex-col lg:hidden text-xl navActive z-50 md:mx-12">
-          {["About", "Tracks", "Sponsors", "FAQs"].map((item, index) => (
-            <a
-              key={item}
-              href={`/#${item.toLowerCase()}`}
-              className="text-primary h-14 w-full flex items-center last:rounded-b-lg bg-navWhite hover:bg-yellow justify-center border-b-2 border-primary hover:border-primaryHover text-lg md:text-xl font-semibold"
-              onClick={() => setBurgerClicked(false)}
-            >
-              <motion.div
-                className="mx-4"
-                initial={{ x: 200 }}
-                animate={{ x: 0 }}
-                transition={{ delay: (index + 1) * 0.1, duration: 0.3 }}
+          {["About", "Schedule", "Tracks", "Sponsors", "FAQs"].map(
+            (item, index) => (
+              <a
+                key={item}
+                href={`/#${item.toLowerCase()}`}
+                className="text-primary h-14 w-full flex items-center last:rounded-b-lg bg-navWhite hover:bg-yellow justify-center border-b-2 border-primary hover:border-primaryHover text-lg md:text-xl font-semibold"
+                onClick={() => setBurgerClicked(false)}
               >
-                {item}
-              </motion.div>
-            </a>
-          ))}
+                <motion.div
+                  className="mx-4"
+                  initial={{ x: 200 }}
+                  animate={{ x: 0 }}
+                  transition={{ delay: (index + 1) * 0.1, duration: 0.3 }}
+                >
+                  {item}
+                </motion.div>
+              </a>
+            )
+          )}
         </div>
       )}
     </>
