@@ -72,11 +72,11 @@ const Navbar: React.FC = () => {
           </a>
           */}
           <a
-            href="https://form.typeform.com/to/ozOq06mS"
+            href="https://ethantocco.picflow.com/grizzhacks2025"
             target="_blank"
             className="font-semibold hover:bg-primaryHover hover:text-white transition duration-300 ease-in-out w-fit relative ring-2 ring-primaryHover rounded-2xl py-2 px-4"
           >
-            Register
+            Photos
           </a>
         </div>
 

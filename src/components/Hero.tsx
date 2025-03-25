@@ -41,14 +41,14 @@ const Hero = () => {
           </div>
           <div className="flex flex-col gap-1 items-center">
             <a
-              href="https://form.typeform.com/to/ozOq06mS"
+              href="https://ethantocco.picflow.com/grizzhacks2025"
               target="_blank"
               className="flex items-center justify-center py-2 2xl:py-3 px-4 2xl:px-6 text-2xl lg:text-3xl rounded-2xl bg-primary hover:bg-primaryHover w-fit text-white font-semibold font-montserrat relative ring-2 ring-primaryHover"
             >
-              Register Now!
+              Photo Gallery
             </a>
             <h3 className="flex text-base 2xl:text-lg text-blackColor">
-              Join the Quackathon
+              The Quackathon Has Ended
             </h3>
           </div>
           <div className="flex items-center justify-center -mt-24">
@@ -80,13 +80,13 @@ const Hero = () => {
           </div>
           <div className="flex flex-col gap-1 items-center">
             <a
-              href="https://form.typeform.com/to/ozOq06mS"
+              href="https://ethantocco.picflow.com/grizzhacks2025"
               className="font-montserrat flex items-center justify-center p-2 px-3 text-xl lg:text-3xl 2xl:text-3xl rounded-xl bg-primary hover:bg-primaryHover w-fit text-white font-semibold relative ring-2 ring-primaryHover"
             >
-              Register Now!
+              Photo Gallery
             </a>
             <h3 className="flex text-base font-montserrat">
-              Join the Quackathon
+              The Quackathon Has Ended
             </h3>
           </div>
           <div className="flex items-center justify-center mt-8">
