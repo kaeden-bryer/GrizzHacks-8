@@ -6,6 +6,7 @@ export const metadata: Metadata = {
   title: "GrizzHacks 7",
   description:
     "GrizzHacks is back with a quackathon! Register now for Oakland University's 24 hour hackathon.",
+  publisher: "GrizzHunt 2025 - The flag is 'Hale3IsSo5mart'",
 };
 
 export default function RootLayout({
@@ -21,9 +22,6 @@ export default function RootLayout({
             name="viewport"
             content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no"
           />
-          {/* 
-          👀 Hey you made it! GrizzHunt 2025 - The flag is: 'Hale3IsSo5mart'
-        */}
         </Head>
         {children}
       </body>
