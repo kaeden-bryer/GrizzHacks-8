@@ -1,4 +1,4 @@
-# [GrizzHacks 8][](https://www.grizzhacks.org)
+# [GrizzHacks 8](https://www.grizzhacks.org)
 
 ### This year's theme is 🍹TROPICAL🌴
 
